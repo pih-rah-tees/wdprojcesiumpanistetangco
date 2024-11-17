@@ -1,4 +1,4 @@
-# Hello Node!
+# Project Outline
 
 This project includes a Node.js server script and a web page that connects to it. The front-end page presents a form the visitor can use to submit a color name, sending the submitted value to the back-end API running on the server. The server returns info to the page that allows it to update the display with the chosen color. 🎨
 
@@ -6,7 +6,7 @@ This project includes a Node.js server script and a web page that connects to it
 
 _Last updated: 14 August 2023_
 
-## Prerequisites
+## How JS is incorporated 
 
 You'll get best use out of this project if you're familiar with basic JavaScript. If you've written JavaScript for client-side web pages this is a little different because it uses server-side JS, but the syntax is the same!
 
