@@ -1,14 +1,15 @@
 # Project Outline
 
-This project includes a Node.js server script and a web page that connects to it. The front-end page presents a form the visitor can use to submit a color name, sending the submitted value to the back-end API running on the server. The server returns info to the page that allows it to update the display with the chosen color. 🎨
-
-[Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run server-side JavaScript. This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).
-
-_Last updated: 14 August 2023_
+Our website, ArtWalli, is an interactive website where users can either draw, design, or download thier very own wallpapers.
+In the drawing section, users are allowed to use our digital brush and canvas to create whatever design they please. They may save this to their device and use it as their new wallpaper.
+For the design section, users have the ability to customize some of our pre-made designs to add a personal touch to their wallpaper. Similar to the drawing section, they may save their creation after to use as a wallpaper.
+Lastly, in the download section, users may choose from a number of premade wallpapers. They can download these images for free and use it as a wallpaper.
+These wallpapers are available for phones, tablets, and desktops. 
 
 ## How JS is incorporated 
 
-You'll get best use out of this project if you're familiar with basic JavaScript. If you've written JavaScript for client-side web pages this is a little different because it uses server-side JS, but the syntax is the same!
+We are mostly incorporating JS in the webpages where one can draw and design their own wallpaper.
+We will also be using it in
 
 ## What's in this project?
 
