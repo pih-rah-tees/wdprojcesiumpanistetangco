@@ -16,5 +16,3 @@ We will also be using it in the home page to apply smooth-scrolling.
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU6j_WTb4XRqT9ez7OY475dxINHJZx_2l2156ePxZol25Gw1DAfnaXp12h&s=10)
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnz8GU3lX9jzEQudKAEJTbSS1Bnx_A9DQo2w&usqp=CAU)
-
-![alt text](https://cdn.glitch.com/c62efef6-1e75-45cf-b248-afeccdda9477%2Fillustration.svg?v=1618196069568)
