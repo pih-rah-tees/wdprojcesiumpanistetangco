@@ -85,10 +85,12 @@
 
 .oppening {
   background-color: #e1afd1;
+  height: 1000px;
+  width: 1500px;
 }
 
-.openning > div {
-  opacity: 0.6;
+.openning > img {
+  opacity: 33%;
   height: 100%;
   width: 100%;
 }
@@ -100,3 +102,5 @@
 
 .draww { 
 background-color:#F1D0A5;
+width: 100%;
+}
