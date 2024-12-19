@@ -1,19 +1,14 @@
 .hi { 
-  background-color:white;
   font-size: 0;
 }
 
 .aaa {
-  background-color:white;
   display: flex;
   justify-content: space-between;
-  padding: 10px 10px 0px 10px;
-  margin-top: 10px;
+  padding: 10px 10px;
   margin-left: 2px;
-  margin-right: 2px;
   position: fixed;
   width: 1485px;
-  opacity: 0.5;
 }
 
 .draww { 
@@ -39,3 +34,10 @@ background-color:#F1D0A5;
   float:right;
 }
 
+.iNeedBgPles {
+  background-color:white;
+  opacity: 0.5px;
+  position: absolute;
+  height: 70px;
+  width: 1485px;
+}
