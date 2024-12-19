@@ -1,5 +1,5 @@
-.hi { 
-  font-size: 0;
+.helpme {
+  padding: 50px;
 }
 
 .aaa {
@@ -84,15 +84,8 @@
 }
 
 .oppening {
+  background-image: url("wonkyChessBoard.png");
   background-color: #e1afd1;
-  height: 1000px;
-  width: 1500px;
-}
-
-.openning > img {
-  opacity: 33%;
-  height: 100%;
-  width: 100%;
 }
 
 .frontPLES {
