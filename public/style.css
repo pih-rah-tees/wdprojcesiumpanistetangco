@@ -1,7 +1,15 @@
 .aaa {
-  
+  background-color:#E1AFD1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .bbb { 
 background-color:#F1D0A5;
 }
+
+
+.draw {
+  float:right;
+}
+
