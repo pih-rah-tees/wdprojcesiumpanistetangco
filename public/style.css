@@ -86,7 +86,7 @@
 #section1 {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/wonkyChessboard.png?v=1734614986526");
   width: 100%;
-  height: 100%;
+  height: 97%;
 }
 
 .frontPLES {
@@ -100,10 +100,10 @@ width: 100%;
 }
 
 .marquee {
-  position: sticky;
+  position: relative;
   width: 100vw;
   max-width: 100%;
-  height: 200px;
+  height: 30px;
   overflow-x: hidden;
 }
 
@@ -111,7 +111,13 @@ width: 100%;
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 7s linear infinite;
+  animation: marquee 10s linear infinite;
+}
+
+.content {
+  font-size: 25px;
+  font-family: serif;
+  font-variant: small-caps;
 }
 
 @keyframes marquee {
