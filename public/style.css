@@ -1,5 +1,5 @@
 .helpme {
-  padding: 50px;
+  padding: 300px;
 }
 
 .aaa {
@@ -83,9 +83,10 @@
   opacity: 0.4;
 }
 
-.oppening {
-  background-image: url("wonkyChessBoard.png");
-  background-color: #e1afd1;
+#section1 {
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/wonkyChessboard.png?v=1734614986526");
+  width: 1500px;
+  height: 725px;
 }
 
 .frontPLES {
