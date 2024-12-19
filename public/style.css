@@ -36,8 +36,8 @@ background-color:#F1D0A5;
 
 .iNeedBgPles {
   background-color:white;
-  opacity: 0.5px;
   position: absolute;
-  height: 70px;
-  width: 1485px;
+  height: 80px;
+  width: 1510px;
+  opacity: 0.6;
 }
