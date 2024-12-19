@@ -11,10 +11,6 @@
   width: 1485px;
 }
 
-.draww { 
-background-color:#F1D0A5;
-}
-
 .dr {
   background-color: #F1D0A5;
   border: none;
@@ -22,7 +18,7 @@ background-color:#F1D0A5;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Optima, sans-serif";
+  font-family:"Gill Sans", sans-serif;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
@@ -37,7 +33,7 @@ background-color:#F1D0A5;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Optima, sans-serif";
+  font-family: "Gill Sans", sans-serif;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
@@ -52,7 +48,7 @@ background-color:#F1D0A5;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Optima, sans-serif";
+  font-family: "Gill Sans", sans-serif;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
@@ -63,11 +59,11 @@ background-color:#F1D0A5;
 .ab {
   background-color: #7469B6;
   border: none;
-  color: #79582D;
+  color: #E1AFD1;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Optima, sans-serif";
+  font-family: "Gill Sans", sans-serif;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
@@ -87,8 +83,13 @@ background-color:#F1D0A5;
   opacity: 0.4;
 }
 
-.openning {
-  opacity: 0.7;
+.oppening {
+  background-color: #e1afd1;
+}
+
+.openning > div {
+  opacity: 0.6;
+  height: 100%;
   width: 100%;
 }
 
@@ -96,3 +97,6 @@ background-color:#F1D0A5;
   z-index:100; 
   position: fixed;
 }
+
+.draww { 
+background-color:#F1D0A5;
