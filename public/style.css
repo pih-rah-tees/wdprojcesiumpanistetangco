@@ -84,12 +84,14 @@
   opacity: 0.4;
 }
 
+/*home section background*/
 #section1 {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
   width: 100%;
   height: 97%;
 }
 
+/*unmoving heading*/
 .frontPLES {
   z-index:100; 
   position: fixed;
@@ -107,6 +109,7 @@ height: 100%;
   align-items: center;
 }
 
+/*infinite marquee tag*/
 .marquee {
   position: relative;
   width: 100vw;
@@ -114,14 +117,12 @@ height: 100%;
   height: 30px;
   overflow-x: hidden;
 }
-
 .track {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
   animation: marquee 10s linear infinite;
 }
-
 .content {
   font-size: 25px;
   font-family: sans-serif;
@@ -129,9 +130,20 @@ height: 100%;
   background-color: #f2e0bf;
   color: #79582d;
 }
-
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
+
 }
 
+#section3 {
+  background-color: #FFE6E6;
+  width: 100%;
+  height: 100%;
+}
+
+#section4 { 
+  background-color: #5A519B;
+  wdith: 100%;
+  height: 100%;
+}
