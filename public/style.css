@@ -5,7 +5,6 @@
 .aaa {
   display: flex;
   justify-content: space-between;
-  padding: 10px 10px;
   margin-left: 2px;
   position: fixed;
   width: 1475px;
@@ -14,7 +13,7 @@
 .dr {
   background-color: #F1D0A5;
   border: none;
-  color: #79582D;
+  color: #79582D; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -137,21 +136,27 @@ height: 100%;
 
 }
 
+/*design section background*/
 #section3 {
   background-color: #FFE6E6;
   width: 100%;
   height: 100%;
 }
 
+/*download section background*/
 #section4 { 
   background-color: #5A519B;
-  wdith: 100%;
+  width: 100%;
   height: 100%;
 }
 
+/*about section background*/
 #section5 {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
   width: 100%;
   height: 97%;
 }
 
+a:link {
+  text-decoration: none;
+}
