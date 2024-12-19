@@ -1,5 +1,5 @@
 .helpme {
-  padding: 300px;
+  padding: 125px;
 }
 
 .aaa {
@@ -94,9 +94,10 @@
   position: fixed;
 }
 
-.draww { 
+#section2 { 
 background-color:#F1D0A5;
 width: 100%;
+height: 100%;
 }
 
 .marquee {
