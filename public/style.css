@@ -1,7 +1,13 @@
+.hi { 
+  background-color:white;
+  
+}
+
 .aaa {
-  background-color:#E1AFD1;
+  background-color:white;
   display: flex;
   justify-content: space-between;
+  padding: 10px 10px
 }
 
 .draww { 
@@ -12,11 +18,10 @@ background-color:#F1D0A5;
   background-color: #F1D0A5;
   border: none;
   color: #79582D;
-  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Bobby Jones Condensed Soft";
+  font-family: "Optima, sans-serif";
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
