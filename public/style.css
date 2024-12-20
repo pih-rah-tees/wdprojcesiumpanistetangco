@@ -91,6 +91,7 @@
   
 }
 
+/*heading transparent background*/
 .iNeedBgPles {
   background-color:white;
   position: fixed;
@@ -117,6 +118,7 @@
 background-color:#F1D0A5;
 width: 100%;
 height: 100%;
+display: inline-block;
 }
 
 .draww {
@@ -147,7 +149,6 @@ height: 100%;
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
-
 }
 
 /*design section background*/
@@ -168,16 +169,13 @@ height: 100%;
 #section5 {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
   width: 100%;
-  height: 97%;
-}
-
-a:link {
-  text-decoration: none;
+  height: 100%;
 }
 
 h1 {
   font-size: 50px;
   font-family: 'Trattatello', cursive;
+  padding: 15% 0 0 0;
   
 }
 
