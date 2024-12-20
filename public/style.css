@@ -264,8 +264,12 @@
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
-  left: 190px;
-  top: 435%;
+  right: 80px;
+  top: 415%;
   color: #79582d;
-  text-align: right;
+  text-align: left;
+}
+
+#section5 h3 {
+  text-orientation: mixed;
 }
