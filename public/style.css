@@ -207,16 +207,12 @@
   display:inline-block;
   background-color: #7469B6;
   border: none;
-  color: #F2E0BF;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Gill Sans", sans-serif;
-  font-size: 50px;
+  color: #ad88c6;
   margin: 5px 2px;
   border-radius: 80px;
   position: absolute;
   left: 900px;
-  top: 1050px;
+  top: 1750px;
 }
 
 .container {
