@@ -108,8 +108,9 @@
 
 /*draw section background*/
 #section2 { 
-  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3495.jpeg?v=1734687299950");
-  
+  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawBg.jpeg?v=1734687299950");
+  background-position: center;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
   display: inline-block;
@@ -144,9 +145,12 @@
 
 /*design section background*/
 #section3 {
-  background-color: #FFE6E6;
+  background-image:url("");
+  background-position: center;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
+  display: inline-block;
 }
 
 /*download section background*/
