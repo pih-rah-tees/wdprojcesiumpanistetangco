@@ -132,7 +132,7 @@
   font-family: "Gill Sans", sans-serif;
   position: absolute;
   left: 20%;
-  top: 155%;
+  top: 150%;
   color: #5a519b;
 }
 #draw {
@@ -145,7 +145,7 @@
   margin: 5px 2px;
   border-radius: 80px;
   position: absolute;
-  left: 900px;
+  left: 920px;
   top: 140%;
 }
 
@@ -163,8 +163,8 @@
   font-family: 'Luminari', cursive;
   padding: 10% 0 0 0;
   position: absolute;
-  left: 275px;
-  top: 1325px;
+  left: 265px;
+  top: 200%;
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
@@ -172,8 +172,8 @@
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
-  left: 290px;
-  top: 1860px;
+  left: 280px;
+  top: 260%;
   color: #79582d;
 }
 #design {
@@ -186,8 +186,8 @@
   margin: 5px 2px;
   border-radius: 80px;
   position: absolute;
-  left: 900px;
-  top: 1750px;
+  left: 920px;
+  top: 245%;
 }
 
 
@@ -204,8 +204,8 @@
   font-family: 'Luminari', cursive;
   padding: 10% 0 0 0;
   position: absolute;
-  left: 125px;
-  top: 2075px;
+  left: 90px;
+  top: 295%;
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
@@ -213,8 +213,8 @@
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
-  left: 135px;
-  top: 2560px;
+  left: 110px;
+  top: 350%;
   color: #f1d0a5;
 }
 #download {
@@ -227,8 +227,8 @@
   margin: 5px 2px;
   border-radius: 80px;
   position: absolute;
-  left: 900px;
-  top: 2450px;
+  left: 920px;
+  top: 335%;
 }
 
 
@@ -237,4 +237,22 @@
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
   width: 100%;
   height: 100%;
+}
+#section5 h1{
+  font-size: 165px;
+  font-family: 'Luminari', cursive;
+  padding: 10% 0 0 0;
+  position: absolute;
+  left: 90px;
+  top: 300%;
+  color: #f1d0a5;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
+}
+#section5 h2{
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  position: absolute;
+  left: 110px;
+  top: 400%;
+  color: #f1d0a5;
 }
