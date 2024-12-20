@@ -65,24 +65,6 @@
   width: 80px;
   }
 
-#draw {
-  float:right;
-  padding: 20px 100px;
-  cursor: pointer;
-  display:inline-block;
-  background-color: #7469B6;
-  border: none;
-  color: #F2E0BF;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Gill Sans", sans-serif;
-  font-size: 50px;
-  margin: 5px 2px;
-  border-radius: 80px;
-  position: absolute;
-  left: 900px;
-  top: 1050px;
-}
 
 /*heading transparent background*/
 .iNeedBgPles {
@@ -186,23 +168,55 @@
   top: 1160px;
   color: #5a519b;
 }
+#draw {
+  float:right;
+  padding: 20px 100px;
+  cursor: pointer;
+  display:inline-block;
+  background-color: #7469B6;
+  border: none;
+  color: #F2E0BF;
+  margin: 5px 2px;
+  border-radius: 80px;
+  position: absolute;
+  left: 900px;
+  top: 1050px;
+}
 #section3 h1{
   font-size: 175px;
   font-family: 'Trattatello', cursive;
   padding: 10% 0 0 0;
   position: absolute;
-  left: 350px;
-  top: 650px;
+  left: 250px;
+  top: 1335px;
   color: #f1d0a5;
-  text-shadow: -3px -4px 0 #5a519b, 3px -3px 0 #5a519b, -3px 3px 0 #5a519b, 3px 4px 0 #5a519b;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
 #section3 h2{
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
-  left: 360px;
-  top: 1160px;
-  color: #5a519b;
+  left: 260px;
+  top: 1865px;
+  color: #79582d;
+}
+#design {
+  float:right;
+  padding: 20px 100px;
+  cursor: pointer;
+  display:inline-block;
+  background-color: #7469B6;
+  border: none;
+  color: #F2E0BF;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 50px;
+  margin: 5px 2px;
+  border-radius: 80px;
+  position: absolute;
+  left: 900px;
+  top: 1050px;
 }
 
 .container {
