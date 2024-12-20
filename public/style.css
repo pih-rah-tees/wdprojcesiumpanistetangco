@@ -108,10 +108,11 @@
 
 /*draw section background*/
 #section2 { 
-background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3495.jpeg?v=1734687299950");
-width: 100%;
-height: 100%;
-display: inline-block;
+  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3495.jpeg?v=1734687299950");
+  
+  width: 100%;
+  height: 100%;
+  display: inline-block;
 }
 
 
@@ -171,7 +172,7 @@ h1 {
   left: 350px;
   top: 650px;
   color: #e1afd1;
-  text-shadow: -3px -9px 0 #5a519b, 3px -4px 0 #5a519b, -3px 9px 0 #5a519b, 3px 4px 0 #5a519b;
+  text-shadow: -3px -4px 0 #5a519b, 3px -3px 0 #5a519b, -3px 3px 0 #5a519b, 3px 4px 0 #5a519b;
 }
 
 h2 {
@@ -180,6 +181,7 @@ h2 {
   position: absolute;
   left: 360px;
   top: 1160px;
+  color: #5a519b;
 }
 
 .container {

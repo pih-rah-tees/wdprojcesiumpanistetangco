@@ -20,4 +20,22 @@ $(document).ready(function(){
 });
 
 
+
+
 //smooth scrolling code to be placed here
+
+window.addEventListener("load", () => {
+  canvas.width = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight
+}) 
+                        
+
+const canvas = document.querySelector("canvas"),
+ctx = canvas.getContext("2d");
+
+
+const drawing = (e) => {
+  ctx.lineto(e.offsetX, e.offsetY);
+  ctx.stroke();
+}
+canvas.addEventListener("mousemove", drawing);
