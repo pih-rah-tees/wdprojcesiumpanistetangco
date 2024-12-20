@@ -199,6 +199,37 @@
   height: 100%;
   display: inline-block;
 }
+#section4 h1{
+  font-size: 165px;
+  font-family: 'Trattatello', cursive;
+  padding: 10% 0 0 0;
+  position: absolute;
+  left: 125px;
+  top: 2050px;
+  color: #f1d0a5;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
+}
+#section4 h2{
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  position: absolute;
+  left: 290px;
+  top: 2560px;
+  color: #f1d0a5;
+}
+#download {
+  float:right;
+  padding: 20px 100px;
+  cursor: pointer;
+  display:inline-block;
+  background-color: #e1afd1;
+  border: none;
+  margin: 5px 2px;
+  border-radius: 80px;
+  position: absolute;
+  left: 900px;
+  top: 2450px;
+}
 
 
 /*about section*/

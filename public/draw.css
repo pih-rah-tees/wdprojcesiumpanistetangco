@@ -3,7 +3,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4A98F7;
+  background: #F2E0BF;
 }
 .container{
   display: flex;
@@ -13,7 +13,7 @@ body{
   max-width: 1050px;
 }
 section{
-  background: #fff;
+  background: white;
   border-radius: 7px;
 }
 
