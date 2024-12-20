@@ -254,7 +254,18 @@
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
-  left: 110px;
+  left: 190px;
   top: 435%;
   color: #79582d;
+  text-align: right;
+}
+
+#section5 p {
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  position: absolute;
+  left: 190px;
+  top: 435%;
+  color: #79582d;
+  text-align: right;
 }
