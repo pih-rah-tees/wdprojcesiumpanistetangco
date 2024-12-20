@@ -65,24 +65,6 @@
   width: 80px;
   }
 
-#draw {
-  float:right;
-  padding: 20px 100px;
-  cursor: pointer;
-  display:inline-block;
-  background-color: #7469B6;
-  border: none;
-  color: #F2E0BF;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Gill Sans", sans-serif;
-  font-size: 50px;
-  margin: 5px 2px;
-  border-radius: 80px;
-  position: absolute;
-  left: 900px;
-  top: 1050px;
-}
 
 /*heading transparent background*/
 .iNeedBgPles {
@@ -185,6 +167,20 @@
   left: 360px;
   top: 1160px;
   color: #5a519b;
+}
+#draw {
+  float:right;
+  padding: 20px 100px;
+  cursor: pointer;
+  display:inline-block;
+  background-color: #7469B6;
+  border: none;
+  color: #F2E0BF;
+  margin: 5px 2px;
+  border-radius: 80px;
+  position: absolute;
+  left: 900px;
+  top: 1050px;
 }
 #section3 h1{
   font-size: 175px;
