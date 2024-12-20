@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -19,31 +20,15 @@ body{
   max-width: 1050px;
 }
 section{
-  background: white;
+  background: #fff;
   border-radius: 7px;
 }
-.tools-board{
-  width: 210px;
-  padding: 15px 22px 0;
+
+.drawing-board{
+  flex: 1;
+  overflow: hidden;
 }
-.tools-board .row{
-  margin-bottom: 20px;
-}
-.row .options{
-  list-style: none;
-  margin: 10px 0 0 5px;
-}
-.row .options .option{
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.option:is(:hover, .active) img{
-  filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg) brightness(100%) contrast(100%);
-}
-.option :where(span, label){
-  color: #5A6168;
-  cursor: pointer;
-  padding-left: 10px;
+.drawing-board canvas{
+  width: 100%;
+  height: 100%;
 }

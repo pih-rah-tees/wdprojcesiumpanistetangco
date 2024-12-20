@@ -109,8 +109,7 @@
 /*draw section background*/
 #section2 { 
   background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawBg.jpeg?v=1734687299950");
-  background-position: center;
-  background-attachment: fixed;
+  background-position: 50% 75%;
   width: 100%;
   height: 100%;
   display: inline-block;
@@ -145,9 +144,8 @@
 
 /*design section background*/
 #section3 {
-  background-image:url("");
-  background-position: center;
-  background-attachment: fixed;
+  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DesignBg.jpeg?v=1734690151945");
+  background-position: 25% 75%;
   width: 100%;
   height: 100%;
   display: inline-block;
@@ -155,9 +153,11 @@
 
 /*download section background*/
 #section4 { 
-  background-color: #5A519B;
+  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DownloadBg.jpeg?v=1734690154233");
+  background-position: 25% 75%;
   width: 100%;
   height: 100%;
+  display: inline-block;
 }
 
 /*about section background*/
@@ -168,7 +168,7 @@
 }
 
 
-h1 {
+#section2 h1{
   font-size: 175px;
   font-family: 'Trattatello', cursive;
   padding: 10% 0 0 0;
@@ -178,8 +178,25 @@ h1 {
   color: #e1afd1;
   text-shadow: -3px -4px 0 #5a519b, 3px -3px 0 #5a519b, -3px 3px 0 #5a519b, 3px 4px 0 #5a519b;
 }
-
-h2 {
+#section2 h2{
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  position: absolute;
+  left: 360px;
+  top: 1160px;
+  color: #5a519b;
+}
+#section3 h1{
+  font-size: 175px;
+  font-family: 'Trattatello', cursive;
+  padding: 10% 0 0 0;
+  position: absolute;
+  left: 350px;
+  top: 650px;
+  color: #f1d0a5;
+  text-shadow: -3px -4px 0 #5a519b, 3px -3px 0 #5a519b, -3px 3px 0 #5a519b, 3px 4px 0 #5a519b;
+}
+#section3 h2{
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
