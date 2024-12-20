@@ -10,7 +10,7 @@
   width: 1475px;
 }
 
-.dr {
+#dr {
   background-color: #F1D0A5;
   border: none;
   color: #79582D; 
@@ -25,7 +25,7 @@
   width: 80px;
   }
 
-.de {
+#de {
   background-color: #FFE6E6;
   border: none;
   color: #5A519B;
@@ -40,7 +40,7 @@
   width: 80px;
   }
 
-.do {
+#do {
   background-color: #5A519B;
   border: none;
   color: #FFE6E6;
@@ -55,7 +55,7 @@
   width: 80px;
   }
 
-.ab {
+#ab {
   background-color: #7469B6;
   border: none;
   color: #E1AFD1;
