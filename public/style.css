@@ -108,7 +108,7 @@
 
 /*draw section background*/
 #section2 { 
-background-color:#F1D0A5;
+background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3495.jpeg?v=1734687299950");
 width: 100%;
 height: 100%;
 display: inline-block;
@@ -169,13 +169,14 @@ h1 {
   padding: 10% 0 0 0;
   position: absolute;
   left: 350px;
-  top: 675px;
+  top: 650px;
+  color
 }
 
 h2 {
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
-  left: 350px;
-  top: 1150px;
+  left: 360px;
+  top: 1160px;
 }
