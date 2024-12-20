@@ -1,3 +1,5 @@
+/*positioning was based off Macbook browser, not currently user-friendly*/
+
 /*heading navigation buttons*/
 #dr {
   background-color: #F1D0A5;
@@ -78,7 +80,8 @@
 
 /*home section background*/
 #section1 {
-  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496" width=100% height=100%);
+  background-rea
   width: 100%;
   height: 97%;
 }
@@ -234,7 +237,7 @@
 
 /*about section*/
 #section5 {
-  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3512.jpeg?v=1734706623039");
   width: 100%;
   height: 100%;
 }
@@ -243,8 +246,8 @@
   font-family: 'Luminari', cursive;
   padding: 10% 0 0 0;
   position: absolute;
-  left: 90px;
-  top: 300%;
+  left: 190px;
+  top: 380%;
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
@@ -253,6 +256,6 @@
   font-family: "Gill Sans", sans-serif;
   position: absolute;
   left: 110px;
-  top: 400%;
-  color: #f1d0a5;
+  top: 435%;
+  color: #79582d;
 }
