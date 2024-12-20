@@ -122,8 +122,8 @@
   font-family: 'Luminari', cursive;
   padding: 10% 0 0 0;
   position: absolute;
-  left: 350px;
-  top: 650px;
+  left: 20%;
+  top: 95%;
   color: #e1afd1;
   text-shadow: -3px -4px 0 #5a519b, 3px -3px 0 #5a519b, -3px 3px 0 #5a519b, 3px 4px 0 #5a519b;
 }
@@ -131,8 +131,8 @@
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
-  left: 360px;
-  top: 1160px;
+  left: 20%;
+  top: 155%;
   color: #5a519b;
 }
 #draw {
@@ -146,7 +146,7 @@
   border-radius: 80px;
   position: absolute;
   left: 900px;
-  top: 1050px;
+  top: 140%;
 }
 
 
