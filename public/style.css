@@ -72,18 +72,22 @@
 
 #draw {
   float:right;
-  padding: 100;
+  padding: 20px 100px;
   cursor: pointer;
   display:inline-block;
   background-color: #7469B6;
   border: none;
-  color: #E1AFD1;
+  color: #F2E0BF;
   text-align: center;
   text-decoration: none;
   font-family: "Gill Sans", sans-serif;
-  font-size: 15px;
+  font-size: 30px;
   margin: 10px 2px;
-  border-radius: 45%;
+  border-radius: 40px;
+}
+
+#lol {
+  color: #F2E0BF;
 }
 
 .iNeedBgPles {
@@ -173,5 +177,6 @@ a:link {
 
 h1 {
   font-size: 50px;
-  font-family:
+  font-family: Helvetica, sans-serif;
+  
 }
