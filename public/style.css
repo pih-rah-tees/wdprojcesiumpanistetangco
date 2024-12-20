@@ -1,7 +1,4 @@
-.helpme {
-  padding: 125px;
-}
-
+/*heading spacing*/
 .aaa {
   display: flex;
   justify-content: space-between;
@@ -10,6 +7,7 @@
   width: 1475px;
 }
 
+/*heading navigation buttons*/
 #dr {
   background-color: #F1D0A5;
   border: none;
@@ -24,7 +22,6 @@
   height: 40px;
   width: 80px;
   }
-
 #de {
   background-color: #FFE6E6;
   border: none;
@@ -39,7 +36,6 @@
   height: 40px;
   width: 80px;
   }
-
 #do {
   background-color: #5A519B;
   border: none;
@@ -54,7 +50,6 @@
   height: 40px;
   width: 80px;
   }
-
 #ab {
   background-color: #7469B6;
   border: none;
@@ -84,11 +79,9 @@
   font-size: 50px;
   margin: 5px 2px;
   border-radius: 80px;
-}
-
-#lol {
-  color: #F2E0BF;
-  
+  position: absolute;
+  left: 700px;
+  top: 1000px;
 }
 
 /*heading transparent background*/
@@ -123,6 +116,7 @@ display: inline-block;
 
 .draww {
   align-items: center;
+  font-family: "Gill Sans", sans-serif;
 }
 
 /*infinite marquee tag*/
@@ -172,10 +166,12 @@ display: inline-block;
   height: 100%;
 }
 
+
 h1 {
-  font-size: 50px;
+  font-size: 100px;
   font-family: 'Trattatello', cursive;
-  padding: 15% 0 0 0;
+  padding: 10% 0 0 0;
   
 }
+
 
