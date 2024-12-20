@@ -259,7 +259,6 @@
   color: #79582d;
   text-align: right;
 }
-
 #section5 p {
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
@@ -269,7 +268,8 @@
   color: #79582d;
   text-align: left;
 }
-
-#section5 h3 {
-  text-orientation: mixed;
+#section5 img {
+  position: absolute;
+  left: 550px;
+  top: 450%;
 }
