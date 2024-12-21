@@ -4,10 +4,9 @@ body {
 }
 .container{
   display: flex;
-  width: 100vw;
+  width: 100%;
   gap: 10px;
-  max-width: 1450px;
-  padding: 30px;
+  padding: 60px;
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawWEB.jpeg?v=1734789589732");
   background-position: 0% 90%;
 }
@@ -21,7 +20,7 @@ section{
   overflow: hidden;
 }
 .drawing-board canvas{
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
@@ -98,7 +97,7 @@ br {
 footer {
   background-color: #ffe6e6;
   color: #ad88c6;
-  width:100vw;
+  width:100%;
   height:100%;
 }
 
