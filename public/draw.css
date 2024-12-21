@@ -5,6 +5,7 @@ body{
   min-height: 100vh;
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
   background-repeat:no-repeat;
+  background-position: 25% 100%
 }
 .container{
   display: flex;
@@ -70,6 +71,7 @@ section{
 
 .tools {
   background: #ffe6e6;
+  border: 10px solid #ffe6e6;
 }
 
 /*color input boxes*/
@@ -120,5 +122,14 @@ ul {
 }
 .title {
   font-size: 25px;
-  color: ;
+  color: #5a519b;
+  -webkit-text-stroke: 1px #ad88c6;
+}
+
+.row > button {
+  background-color: #5a519b;
+  color: #ffe6e6;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
 }
