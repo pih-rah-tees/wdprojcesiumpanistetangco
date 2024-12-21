@@ -78,13 +78,16 @@
 }
 
 
-/*home section background*/
+/*home section*/
 #section1 {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
   width: 100%;
   height: 97%;
 }
 #section1 h1 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
   
 }
 /*infinite marquee tag*/
