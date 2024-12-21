@@ -20,9 +20,7 @@ $(document).ready(function(){
 });
 
 
-
 //smooth scrolling code to be placed here
-
 
 
 
