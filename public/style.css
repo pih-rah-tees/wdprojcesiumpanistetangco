@@ -302,9 +302,14 @@ footer {
   background-color: #f2e0bf;
   width:100%;
   color: #79582d;
+}
+footer h1 {
+  font-size: 25px;
   font-family: sans-serif;
   font-variant: small-caps;
 }
-footer h1 {
-    font-size: 25px;
+footer ul {
+  font-size: 15px;
+  font-family: "Gill Sans", sans-serif;
+  margin: 0;
 }

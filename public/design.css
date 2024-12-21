@@ -85,4 +85,34 @@ br {
   top: 0;
 }
 
+#back {
+  background-color: #5a519b;
+  color: #ffe6e6;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 
+footer {
+  background-color: #ffe6e6;
+  color: #ad88c6;
+}
+
+h4 {
+  margin: 0;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+#refer {
+  list-style-type: square;
+  margin-left: 15px;
+  padding: 10px;
+  padding-top: 0;
+}
