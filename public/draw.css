@@ -26,7 +26,7 @@ section{
 }
 
 .drawing-board canvas {
-  height: 675px;
+  height: 675px; 
 }
 
 .tools-board{
