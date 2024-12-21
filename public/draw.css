@@ -4,6 +4,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
+  background-repeat:no-repeat;
 }
 .container{
   display: flex;
@@ -87,10 +88,9 @@ input[type="color"]::-webkit-color-swatch {
 /*brush size input slider*/
 input[type="range"] {
   -webkit-appearance: none;
-  width: 100px;
+  width: 150px;
   height: 7px;
   border-radius: 5px;
-  background-size: 70% 100%;
   background-repeat: no-repeat;
 }
 input[type="range"]::-webkit-slider-thumb {
@@ -103,7 +103,6 @@ input[type="range"]::-webkit-slider-thumb {
 }
 input[type="range"]::-webkit-slider-runnable-track  {
   -webkit-appearance: none;
-  box-shadow: none;
   border: none;
   background: transparent;
 }
