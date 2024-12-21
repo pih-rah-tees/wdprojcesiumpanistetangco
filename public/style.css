@@ -84,6 +84,9 @@
   width: 100%;
   height: 97%;
 }
+#section1 h1 {
+  
+}
 /*infinite marquee tag*/
 .marquee {
   position: relative;
