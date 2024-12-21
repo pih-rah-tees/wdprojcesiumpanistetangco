@@ -1,9 +1,11 @@
-body{
+body > {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #eec6e1;
+  background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawWEB.jpeg?v=1734789589732");
+  background-repeat: no-repeat;
+  background-position:100%;
 }
 .container{
   display: flex;

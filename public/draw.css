@@ -1,7 +1,7 @@
 body{
-  min-height: 100vh;
   background-repeat:no-repeat;
-  background-position: 25% 100%
+  background-position: 50% 100%;
+  height: 100%;
 }
 .container{
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
@@ -134,7 +134,9 @@ button {
   border-radius: 6px;
   font-size: 15px;
   padding: 5px 10px 5px 10px;
-  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 button:hover {
@@ -149,9 +151,17 @@ button:active {
 
 .row > button {
   padding: 10px 5px 10px 5px;
+  position: static;
 }
 
 footer {
   background-color: white;
-  display: flex;
+}
+
+h4 {
+  margin: 0;
+}
+
+#refer {
+  list-style-type: square;
 }
