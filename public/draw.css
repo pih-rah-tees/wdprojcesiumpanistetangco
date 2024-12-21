@@ -115,6 +115,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family: "Gill Sans", sans-serif;
 }
 
 #colors {
@@ -125,6 +126,8 @@ ul {
   font-size: 25px;
   color: #5a519b;
   -webkit-text-stroke: 1px #ad88c6;
+  font-family: sans-serif;
+  font-variant: small-caps;
 }
 
 button {
@@ -152,19 +155,26 @@ button:active {
 .row > button {
   padding: 10px 5px 10px 5px;
   position: static;
+  font-family: sans-serif;
+  font-variant: small-caps;
 }
 
 footer {
   background-color: #ffe6e6;
+  color: #ad88c6;
 }
 
 h4 {
   margin: 0;
   font-family: sans-serif;
   font-variant: small-caps;
+  padding: 10px;
+  padding-bottom: 0;
 }
 
 #refer {
   list-style-type: square;
-  margin-left: 15px
+  margin-left: 15px;
+  padding: 10px;
+  padding-top: 0;
 }

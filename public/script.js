@@ -35,3 +35,4 @@ const drawing = (e) => {
   ctx.stroke();
 }
 canvas.addEventListener("mousemove", drawing);
+
