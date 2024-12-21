@@ -89,7 +89,7 @@
 #section1 {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
   width: 100%;
-  height: 97%;
+  height: 98%;
 }
 #section1 h1 {
   writing-mode: vertical-lr;
@@ -311,4 +311,7 @@ footer {
   color: #79582d;
   font-family: sans-serif;
   font-variant: small-caps;
+}
+footer h1 {
+    font-size: 25px;
 }
