@@ -1,11 +1,10 @@
-
 /*Background*/
-body{
-  background-repeat:no-repeat;
+body {
+  background-repeat: no-repeat;
   background-position: 50% 100%;
   height: 100%;
 }
-.container{
+.container {
   width: 100%;
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
 }
@@ -15,12 +14,12 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:10px;
+  gap: 10px;
   padding: 60px;
 }
 
 /*Canvas*/
-.drawing-board{
+.drawing-board {
   flex: 1;
   overflow: hidden;
   background: white;
@@ -31,41 +30,41 @@ body{
 }
 
 /*Tool-Board and added Effects*/
-.tools-board{
+.tools-board {
   width: 210px;
   padding: 15px 22px 0;
 }
-.tools-board .row{
+.tools-board .row {
   margin-bottom: 20px;
 }
-.row .options{
+.row .options {
   list-style: none;
   margin: 1px 0 0 5px;
 }
-.row .options .option{
+.row .options .option {
   display: flex;
   cursor: pointer;
   align-items: center;
   margin-bottom: 10px;
 }
-.option :where(span, label){
+.option :where(span, label) {
   color: #ad88c6;
   cursor: pointer;
   padding-left: 10px;
 }
-.option:is(:hover, .active) :where(span, label){
+.option:is(:hover, .active) :where(span, label) {
   color: #5a519b;
   -webkit-text-stroke: 1px #ad88c6;
 }
-.option #fill-color{
+.option #fill-color {
   cursor: pointer;
   height: 14px;
   width: 14px;
 }
-#fill-color:checked ~ label{
-  color: #4A98F7;
+#fill-color:checked ~ label {
+  color: #4a98f7;
 }
-.option #size-slider{
+.option #size-slider {
   width: 100%;
   height: 5px;
   margin-top: 10px;
@@ -74,6 +73,19 @@ body{
   background: #ffe6e6;
   border: 10px solid #ffe6e6;
   border-radius: 15px;
+}
+.title {
+  font-size: 25px;
+  color: #5a519b;
+  -webkit-text-stroke: 1px #ad88c6;
+  font-family: sans-serif;
+  font-variant: small-caps;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif;
 }
 
 /*color input boxes*/
@@ -88,6 +100,10 @@ input[type="color"] {
 input[type="color"]::-webkit-color-swatch {
   border-radius: 40%;
   border: 4px solid #e1afd1;
+}
+#colors {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*brush size input slider*/
@@ -106,31 +122,13 @@ input[type="range"]::-webkit-slider-thumb {
   background: #e1afd1;
   cursor: ew-resize;
 }
-input[type="range"]::-webkit-slider-runnable-track  {
+input[type="range"]::-webkit-slider-runnable-track {
   -webkit-appearance: none;
   border: none;
   background: transparent;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-family: "Gill Sans", sans-serif;
-}
-
-#colors {
-  display: flex;
-  justify-content: space-between;
-}
-.title {
-  font-size: 25px;
-  color: #5a519b;
-  -webkit-text-stroke: 1px #ad88c6;
-  font-family: sans-serif;
-  font-variant: small-caps;
-}
-
+/*Buttons and Effects*/
 button {
   background-color: #5a519b;
   color: #ffe6e6;
@@ -142,17 +140,14 @@ button {
   bottom: 0;
   right: 0;
 }
-
 button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 5px #AAAAAA;
+  box-shadow: 0 5px #aaaaaa;
 }
-
 button:active {
   box-shadow: 0 1px #888888;
   transform: translateY(1px);
 }
-
 .row > button {
   padding: 10px 5px 10px 5px;
   position: static;
@@ -160,11 +155,11 @@ button:active {
   font-variant: small-caps;
 }
 
+/*Footer*/
 footer {
   background-color: #ffe6e6;
   color: #ad88c6;
 }
-
 h4 {
   margin: 0;
   font-family: sans-serif;
@@ -172,7 +167,6 @@ h4 {
   padding: 10px;
   padding-bottom: 0;
 }
-
 #refer {
   list-style-type: square;
   margin-left: 15px;

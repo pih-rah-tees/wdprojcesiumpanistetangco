@@ -1,132 +1,172 @@
 <!DOCTYPE html>
-<html> 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <meta name="author" content="Maddison Marie A. Panis & Feliza Guinevere C. Tetangco">
-  <meta name="description" content="ArtWalli is a website where you can either draw, design or download your own wallpaper to decorate your device however you like.">
-  <meta name="keywords" content="Draw, Design, Download, ArtWalli, Art, Digital, Wallpaper, Background, Butterfly, Color">
-  <title> ArtWalli - Draw </title>
-  <link href="draw.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/favicon.png?v=1734603688608">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="author"
+      content="Maddison Marie A. Panis & Feliza Guinevere C. Tetangco"
+    />
+    <meta
+      name="description"
+      content="ArtWalli is a website where you can either draw, design or download your own wallpaper to decorate your device however you like."
+    />
+    <meta
+      name="keywords"
+      content="Draw, Design, Download, ArtWalli, Art, Digital, Wallpaper, Background, Butterfly, Color"
+    />
+    <title>ArtWalli - Draw</title>
+    <link href="draw.css" rel="stylesheet" type="text/css" />
+    <!--font stylesheet to be added-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/favicon.png?v=1734603688608"
+    />
   </head>
   <body>
-    <section class="container">
+    <section class="container"> <!--Draw -->
       <div class="artPart">
-        
-      <section class="tools">  
-        <div class="row">
-          <label class="title">Shapes</label>
-          
-          <ul class="options">
-            
-            <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/CIRCLE.png?v=1734773256505" height="30px" width="30px">
-              <span>Circle</span>
-            </li>
-            
-            <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/ELONGATEDSQUARE.png?v=1734773262607" height="30px" width="30px">
-              <span>Rectangle</span>
-            </li>
-            
-            <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/TRIANGLE.png?v=1734773258283" height="30px" width="30px">
-              <span>Triangle</span>
-            </li>
-            
-         </ul>
-      </div>
-        
-      <div class="row">
-        
-        <label class="title">Options</label>
-        <ul class="options">
-          <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/PAINT.png?v=1734773297205" height="30px" width="30px">
-              <span>Brush</span>
-            </li>
-            
-            <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/ERASE.png?v=1734773020449" height="30px" width="30px">
-              <span>Eraser</span>
-          </li>
-         </ul>
-          <input type="range" id="size-slider">
-        <ul class="options">
-          <li class="option">
-            <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/BUCKET.png?v=1734773400797" height="30px" width="30px">
-            <span>Fill Color</span>
-          </li>
-        </ul>
-      </div>
-        
-      <div class="row">
-        <label class="title">Colors</label>
-        <li class="option" id="colors">
-              <input type="color" class="fill-color">
-              <input type="color" class="fill-color">
-              <input type="color" class="fill-color">
-              <input type="color" class="fill-color">
-              <input type="color" class="fill-color">
-        </li>
-      </div>
-        
-      <div class="row">
-          <label class="title">Canvas Size</label>
+        <section class="tools">
+          <div class="row">
+            <label class="title">Shapes</label>
 
-          <ul class="options">
-            
-            <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/PHONE.png?v=1734785455594" height="30px" width="30px">
-              <span>Phone</span>
+            <ul class="options">
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/CIRCLE.png?v=1734773256505"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Circle</span>
+              </li>
+
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/ELONGATEDSQUARE.png?v=1734773262607"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Rectangle</span>
+              </li>
+
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/TRIANGLE.png?v=1734773258283"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Triangle</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <label class="title">Options</label>
+            <ul class="options">
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/PAINT.png?v=1734773297205"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Brush</span>
+              </li>
+
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/ERASE.png?v=1734773020449"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Eraser</span>
+              </li>
+            </ul>
+            <input type="range" id="size-slider" />
+            <ul class="options">
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/BUCKET.png?v=1734773400797"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Fill Color</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <label class="title">Colors</label>
+            <li class="option" id="colors">
+              <input type="color" class="fill-color" />
+              <input type="color" class="fill-color" />
+              <input type="color" class="fill-color" />
+              <input type="color" class="fill-color" />
+              <input type="color" class="fill-color" />
             </li>
-            
-            <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/TABLET.png?v=1734785457734" height="30px" width="30px">
-              <span>Tablet</span>
-            </li>
-            
-            <li class="option">
-              <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/LAPTOP.png?v=1734785465910" height="30px" width="30px">
-              <span>Laptop</span>
-            </li>
-            
-         </ul>
+          </div>
+
+          <div class="row">
+            <label class="title">Canvas Size</label>
+
+            <ul class="options">
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/PHONE.png?v=1734785455594"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Phone</span>
+              </li>
+
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/TABLET.png?v=1734785457734"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Tablet</span>
+              </li>
+
+              <li class="option">
+                <img
+                  src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/LAPTOP.png?v=1734785465910"
+                  height="30px"
+                  width="30px"
+                />
+                <span>Laptop</span>
+              </li>
+            </ul>
+          </div>
+
+          <br />
+          <div class="row">
+            <button class="clear-canvas">Clear Canvas</button>
+            <button class="save-img">Save as Image</button>
+          </div>
+        </section>
+
+        <section class="drawing-board">
+          <canvas id="stupidCanvas"></canvas>
+        </section>
       </div>
-        
-        <br>
-      <div class="row">
-        <button class="clear-canvas"> Clear Canvas </button>
-        <button class="save-img"> Save as Image </button>
-      </div>
+
+      <a href="index.html">
+        <button>Back</button>
+      </a>
     </section>
-        
-        
-      <section class="drawing-board">
-        <canvas id="stupidCanvas" ></canvas>
-      </section>
-      
-      </div>
-      
-    <a href="index.html">
-      <button>Back</button>
-    </a>
-      
-    </section>
-    
+
     <footer>
-      <h4>
-        References:
-      </h4>
+      <h4>References:</h4>
       <ul id="refer">
-        <li>https://www.codingnepalweb.com/build-drawing-app-html-canvas-javascript/</li>
+        <li>
+          https://www.codingnepalweb.com/build-drawing-app-html-canvas-javascript/
+        </li>
         <li>https://youtu.be/9Ds6dzhda0c</li>
         <li>https://nikitahl.com/style-range-input-css</li>
       </ul>
     </footer>
-    
+
     <script defer src="script.js"></script>
-  
   </body>
 </html>
