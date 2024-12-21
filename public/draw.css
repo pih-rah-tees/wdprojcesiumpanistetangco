@@ -28,9 +28,6 @@ body {
   background: white;
   border-radius: 7px;
 }
-.drawing-board canvas {
-  width: 100%;
-}
 
 /*Tool-Board and added Effects*/
 .tools-board {
