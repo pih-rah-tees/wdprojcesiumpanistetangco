@@ -29,3 +29,12 @@ section{
 .pattern {
   position: static;
 }
+
+.option {
+  background-color: #AD88C6;
+}
+
+.pattern1 {
+  background: #ffe6e6;
+  border: 10px solid #ffe6e6;
+}
