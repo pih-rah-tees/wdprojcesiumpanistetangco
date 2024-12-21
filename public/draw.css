@@ -36,7 +36,7 @@ section{
 }
 .row .options{
   list-style: none;
-  margin: 10px 0 0 5px;
+  margin: 1px 0 0 5px;
 }
 .row .options .option{
   display: flex;
@@ -46,12 +46,13 @@ section{
 }
 
 .option :where(span, label){
-  color: #5A6168;
+  color: #ad88c6;
   cursor: pointer;
   padding-left: 10px;
 }
 .option:is(:hover, .active) :where(span, label){
-  color: #ad88c6;
+  color: #5a519b;
+  -webkit-text-stroke: 1px #ad88c6;
 }
 .option #fill-color{
   cursor: pointer;
@@ -88,7 +89,7 @@ input[type="color"]::-webkit-color-swatch {
 /*brush size input slider*/
 input[type="range"] {
   -webkit-appearance: none;
-  width: 150px;
+  width: 200px;
   height: 7px;
   border-radius: 5px;
   background-repeat: no-repeat;
