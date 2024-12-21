@@ -3,7 +3,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #F2E0BF;
+  background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
 }
 .container{
   display: flex;
@@ -50,7 +50,7 @@ section{
   padding-left: 10px;
 }
 .option:is(:hover, .active) :where(span, label){
-  color: #4A98F7;
+  color: #ad88c6;
 }
 .option #fill-color{
   cursor: pointer;
@@ -87,7 +87,7 @@ input[type="color"]::-webkit-color-swatch {
 /*brush size input slider*/
 input[type="range"] {
   -webkit-appearance: none;
-  width: 150px;
+  width: 100px;
   height: 7px;
   border-radius: 5px;
   background-size: 70% 100%;
