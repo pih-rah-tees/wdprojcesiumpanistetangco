@@ -266,9 +266,11 @@
   left: 190px;
   top: 435%;
   color: #79582d;
+  margin: 0;
 }
 #section5 ul {
-  list-style-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/smolSHINY.png?v=1734762869760");
+  list-style-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/smolSHINY.png?v=1734763924220");
+  margin: 0;
 }
 #section5 p {
   font-size: 25px;
