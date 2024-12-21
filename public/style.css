@@ -1,5 +1,7 @@
 /*positioning was based off Macbook browser, not currently user-friendly*/
 
+
+
 /*heading navigation buttons*/
 #dr {
   background-color: #F1D0A5;
@@ -8,12 +10,13 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family:"Gill Sans", sans-serif;
+  font-family: sans-serif;
+  font-variant: small-caps;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
   height: 40px;
-  width: 80px;
+  width: 90px;
   }
 #de {
   background-color: #FFE6E6;
@@ -22,12 +25,13 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Gill Sans", sans-serif;
+  font-family: sans-serif;
+  font-variant: small-caps;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
   height: 40px;
-  width: 80px;
+  width: 90px;
   }
 #do {
   background-color: #5A519B;
@@ -36,12 +40,13 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Gill Sans", sans-serif;
+  font-family: sans-serif;
+  font-variant: small-caps;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
   height: 40px;
-  width: 80px;
+  width: 90px;
   }
 #ab {
   background-color: #7469B6;
@@ -50,13 +55,15 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Gill Sans", sans-serif;
+  font-family: sans-serif;
+  font-variant: small-caps;
   font-size: 15px;
   margin: 10px 2px;
   cursor: pointer;
   height: 40px;
-  width: 80px;
+  width: 90px;
   }
+
 /*heading*/
 .iNeedBgPles {
   background-color:white;
@@ -95,6 +102,16 @@
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
+#section1 h2{
+  writing-mode: vertical-lr;
+  font-size: 35px;
+  font-family: "Gill Sans", sans-serif;
+  position: absolute;
+  left: 65%;
+  top: 25%;
+  color: #5a519b;
+}
+
 /*infinite marquee tag*/
 .marquee {
   position: relative;
@@ -283,4 +300,15 @@
   position: absolute;
   left: 550px;
   top: 450%;
+}
+
+
+/*footer*/
+footer {
+  display: inline-block;
+  background-color: #f2e0bf;
+  width:100%;
+  color: #79582d;
+  font-family: sans-serif;
+  font-variant: small-caps;
 }
