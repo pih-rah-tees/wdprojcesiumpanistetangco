@@ -20,10 +20,6 @@ $(document).ready(function(){
 });
 
 
-//smooth scrolling code to be placed here
-
-
-
 window.addEventListener("load", () => {
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight

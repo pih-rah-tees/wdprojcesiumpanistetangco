@@ -3,6 +3,10 @@
 
 
 /*heading navigation buttons*/
+
+html {
+  scroll-behavior: smooth;
+}
 #dr {
   background-color: #F1D0A5;
   border: none;
