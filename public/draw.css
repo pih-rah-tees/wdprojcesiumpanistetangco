@@ -6,7 +6,6 @@ body{
 .container{
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
   height: 100%;
-  gap: 10px;
   width: 100%;
 }
 
@@ -14,7 +13,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 75px;
+  padding: 50px;
 }
 
 .drawing-board{
