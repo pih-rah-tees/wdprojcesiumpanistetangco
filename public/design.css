@@ -38,9 +38,13 @@ section{
 }
 
 .option:hover {
-  height: 65px;
-  width: 65px;
-  border: 5px solid #eec6e1;
+  transform: translateY(-4px);
+  box-shadow: 0 5px #AAAAAA;
+}
+
+.option:active {
+  box-shadow: 0 1px #888888;
+  transform: translateY(1px);
 }
 
 .pattern1 {

@@ -17,7 +17,7 @@ html {
   font-family: sans-serif;
   font-variant: small-caps;
   font-size: 15px;
-  margin: 10px 2px;
+  margin: 10px 0px;
   cursor: pointer;
   height: 40px;
   width: 90px;
@@ -32,7 +32,7 @@ html {
   font-family: sans-serif;
   font-variant: small-caps;
   font-size: 15px;
-  margin: 10px 2px;
+  margin: 10px 0px;
   cursor: pointer;
   height: 40px;
   width: 90px;
@@ -47,7 +47,7 @@ html {
   font-family: sans-serif;
   font-variant: small-caps;
   font-size: 15px;
-  margin: 10px 2px;
+  margin: 10px 0px;
   cursor: pointer;
   height: 40px;
   width: 90px;
@@ -62,20 +62,12 @@ html {
   font-family: sans-serif;
   font-variant: small-caps;
   font-size: 15px;
-  margin: 10px 2px;
+  margin: 10px 0px;
   cursor: pointer;
   height: 40px;
   width: 90px;
   }
-.hi{
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: right;
-}
+
 
 /*heading*/
 .iNeedBgPles {
