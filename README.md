@@ -1,6 +1,6 @@
 # Project Outline
 
-Our website, **ArtWalli**, is an interactive website where users can either draw, design, or download thier very own wallpapers.
+Our website, **ArtWalli**, is an interactive website where users can either draw, design, or download their very own wallpapers.
 In the drawing section, users are allowed to use our digital brush and canvas to create whatever design they please. They may save this to their device and use it as their new wallpaper.
 For the design section, users have the ability to customize some of our pre-made designs to add a personal touch to their wallpaper. Similar to the drawing section, they may save their creation after to use as a wallpaper.
 Lastly, in the download section, users may choose from a number of premade wallpapers. They can download these images for free and use it as a wallpaper. This is not a created webpage but instead a pinterest board made by yours truly.

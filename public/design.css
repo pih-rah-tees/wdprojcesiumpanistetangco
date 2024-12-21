@@ -1,15 +1,20 @@
+/*positioning was based off laptop, may not currently be user-friendly*/
+
+
+/*background*/
 body {
   height: 100%;
   background-repeat: no-repeat;
+  background-position: 0% 90%;
 }
 .container{
   display: flex;
-  width: 100%;
+  width: 93%;
   gap: 10px;
-  padding: 60px;
+  padding: 50px;
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawWEB.jpeg?v=1734789589732");
-  background-position: 0% 90%;
 }
+
 section{
   background: white;
   border-radius: 7px;
@@ -19,27 +24,23 @@ section{
   flex: 1;
   overflow: hidden;
 }
-.drawing-board canvas{
-  width: 100%;
-  height: 100%;
-}
 
 .title {
   position: static;
 }
 
+/*option buttons*/
 .option {
   background-color: #AD88C6;
   border-radius: 12px;
   border: none;
   cursor: pointer;
 }
-
+ /*button effects*/
 button:hover {
   transform: translateY(-4px);
   box-shadow: 0 5px #AAAAAA;
 }
-
 button:active {
   box-shadow: 0 1px #888888;
   transform: translateY(1px);
@@ -52,7 +53,6 @@ button:active {
   border: 10px solid #ffe6e6;
   overflow:auto;
 }
- 
 br {
   display: block;
   content: "";
@@ -94,15 +94,13 @@ br {
   right: 0;
 }
 
+/*footer*/
 footer {
   background-color: #ffe6e6;
   color: #ad88c6;
   width:100%;
   height:100%;
 }
-
-
-
 h4 {
   margin: 0;
   font-family: sans-serif;
@@ -110,7 +108,6 @@ h4 {
   padding: 10px;
   padding-bottom: 0;
 }
-
 #refer {
   list-style-type: square;
   margin-left: 15px;

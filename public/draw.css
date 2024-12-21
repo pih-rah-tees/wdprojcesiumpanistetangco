@@ -1,3 +1,6 @@
+/*positioning was based off laptop, may not currently be user-friendly*/
+
+
 /*Background*/
 body {
   background-repeat: no-repeat;
@@ -155,7 +158,7 @@ button:active {
   font-variant: small-caps;
 }
 
-/*Footer*/
+/*Footer with references*/
 footer {
   background-color: #ffe6e6;
   color: #ad88c6;
