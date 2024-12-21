@@ -1,3 +1,4 @@
+//does not work
 $(document).ready(function () {
   $("a").on("click", function (event) {
     if (this.hash !== "") {
@@ -32,6 +33,8 @@ const drawing = (e) => {
 };
 canvas.addEventListener("mousemove", drawing);
 
+
+//works and is for the design button color change
 function buttonFunc(a) {
   var id = "pattern" + a;
   if (id == "pattern1") {

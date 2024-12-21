@@ -4,7 +4,7 @@ body {
 }
 .container{
   display: flex;
-  width: 100%;
+  width: 100vw;
   gap: 10px;
   max-width: 1450px;
   padding: 30px;
@@ -21,7 +21,7 @@ section{
   overflow: hidden;
 }
 .drawing-board canvas{
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 
@@ -98,10 +98,11 @@ br {
 footer {
   background-color: #ffe6e6;
   color: #ad88c6;
-  width:100%;
+  width:100vw;
   height:100%;
-
 }
+
+
 
 h4 {
   margin: 0;
@@ -116,6 +117,4 @@ h4 {
   margin-left: 15px;
   padding: 10px;
   padding-top: 0;
-  width:100%;
-  height:100%
 }
