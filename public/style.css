@@ -67,6 +67,15 @@ html {
   height: 40px;
   width: 90px;
   }
+.hi{
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+}
 
 /*heading*/
 .iNeedBgPles {

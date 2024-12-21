@@ -34,6 +34,13 @@ section{
   background-color: #AD88C6;
   border-radius: 12px;
   border: none;
+  cursor: pointer;
+}
+
+.option:hover {
+  height: 65px;
+  width: 65px;
+  border: 5px solid #eec6e1;
 }
 
 .pattern1 {
@@ -66,4 +73,9 @@ br {
   cursor: pointer;
   height: 40px;
   width: 70px;
+}
+
+.top { 
+  position: sticky;
+  top: 0;
 }
