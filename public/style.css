@@ -307,9 +307,11 @@ footer h1 {
   font-size: 25px;
   font-family: sans-serif;
   font-variant: small-caps;
+  margin-bottom: 0;
+  margin-left: 5px;
 }
 footer ul {
   font-size: 15px;
   font-family: "Gill Sans", sans-serif;
-  margin: 0;
+  margin-top: 5px;
 }

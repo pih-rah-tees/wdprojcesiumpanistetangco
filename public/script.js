@@ -36,6 +36,7 @@ const drawing = (e) => {
 }
 canvas.addEventListener("mousemove", drawing);
 
+
 function buttonFunc(a) {
   var id = "pattern"+a;
   if (id == "pattern1") {
