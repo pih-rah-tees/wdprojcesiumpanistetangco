@@ -27,6 +27,10 @@ body {
   overflow: hidden;
   background: white;
   border-radius: 7px;
+  height: 500px;
+}
+.drawing-board canvas {
+  width: 100%;
 }
 
 /*Tool-Board and added Effects*/
