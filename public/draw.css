@@ -4,9 +4,11 @@ body{
   height: 100%;
 }
 .container{
-  background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
-  height: 100%;
   width: 100%;
+  max-width:1485px;
+  background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
+  gap: 10px;
+  padding: 10px;
 }
 
 .artPart {
