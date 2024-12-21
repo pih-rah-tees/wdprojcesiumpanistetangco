@@ -5,7 +5,6 @@ body{
 }
 .container{
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
-  width: 100%;
   height: 100%;
   padding: 20px;
 }
@@ -24,6 +23,10 @@ section{
 .drawing-board{
   flex: 1;
   overflow: hidden;
+}
+
+.drawing-board canvas {
+  height: 675px;
 }
 
 .tools-board{
@@ -131,6 +134,7 @@ ul {
   border: none;
   border-radius: 6px;
   font-size: 15px;
+  padding: 10px 5px 10px 5px;
 }
 
 footer {

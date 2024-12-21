@@ -7,10 +7,8 @@ body{
 }
 .container{
   display: flex;
-  width: 100%;
   gap: 10px;
   padding: 10px;
-  max-width: 1050px;
 }
 section{
   background: white;
@@ -38,3 +36,4 @@ section{
   background: #ffe6e6;
   border: 10px solid #ffe6e6;
 }
+
