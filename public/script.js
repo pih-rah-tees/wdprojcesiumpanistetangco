@@ -36,9 +36,19 @@ const drawing = (e) => {
 }
 canvas.addEventListener("mousemove", drawing);
 
-function buttonFunc() {
-  var patUno = document.getElementById('patternUno');
-  var style = window.getComputedStyle(patUno);
-  var bgUno = style.backgroundColor;
-  console.log(bgUno);
+function buttonFunc(a) {
+  var id = "pattern"+a;
+  if (id == "pattern1") {
+    document.getElementById("pattern1").setAttribute('style', 'background-color: #ad88c6;');
+    document.getElementById("pattern2").setAttribute('style', 'background-color: #E1AFD1;');
+    document.getElementById("pattern3").setAttribute('style', 'background-color: #E1AFD1;');
+  } else if (id == "pattern2") {
+    document.getElementById("pattern1").setAttribute('style', 'background-color: #E1AFD1;');
+    document.getElementById("pattern2").setAttribute('style', 'background-color: #ad88c6;');
+    document.getElementById("pattern3").setAttribute('style', 'background-color: #E1AFD1;');
+  } else {
+    document.getElementById("pattern1").setAttribute('style', 'background-color: #E1AFD1;');
+    document.getElementById("pattern2").setAttribute('style', 'background-color: #E1AFD1;');
+    document.getElementById("pattern3").setAttribute('style', 'background-color: #ad88c6;');
+  }
 }
