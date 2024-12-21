@@ -90,14 +90,14 @@
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
   width: 100%;
   height: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #section1 h1 {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  position: absolute;
   font-size: 115px;
-  top: 20%;
-  left: 250px;
   font-family: 'Luminari', cursive;
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
@@ -106,9 +106,6 @@
   writing-mode: vertical-lr;
   font-size: 35px;
   font-family: "Gill Sans", sans-serif;
-  position: absolute;
-  left: 65%;
-  top: 25%;
   color: #5a519b;
 }
 
@@ -180,25 +177,22 @@
   background-position: 25% 75%;
   width: 100%;
   height: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #section3 h1{
   font-size: 175px;
   font-family: 'Luminari', cursive;
-  padding: 10% 0 0 0;
-  position: absolute;
-  left: 265px;
-  top: 200%;
+  margin: 0;
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
 #section3 h2{
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
-  position: absolute;
-  left: 280px;
-  top: 260%;
   color: #79582d;
+  margin: 0;
 }
 #design {
   float:right;
@@ -207,11 +201,8 @@
   display:inline-block;
   background-color: #ad88c6;
   border: none;
-  margin: 5px 2px;
+  margin: 50px;
   border-radius: 80px;
-  position: absolute;
-  left: 920px;
-  top: 245%;
 }
 
 
@@ -221,24 +212,21 @@
   background-position: 25% 75%;
   width: 100%;
   height: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #section4 h1{
   font-size: 165px;
   font-family: 'Luminari', cursive;
-  padding: 10% 0 0 0;
-  position: absolute;
-  left: 90px;
-  top: 295%;
+  margin: 0;
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
 #section4 h2{
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
-  position: absolute;
-  left: 110px;
-  top: 350%;
+  margin: 0;
   color: #f1d0a5;
 }
 #download {
@@ -248,11 +236,8 @@
   display:inline-block;
   background-color: #e1afd1;
   border: none;
-  margin: 5px 2px;
+  margin: 50px;
   border-radius: 80px;
-  position: absolute;
-  left: 920px;
-  top: 335%;
 }
 
 
