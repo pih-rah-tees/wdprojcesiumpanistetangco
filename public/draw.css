@@ -1,19 +1,22 @@
 body{
   min-height: 100vh;
-  background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
   background-repeat:no-repeat;
   background-position: 25% 100%
 }
 .container{
+  background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  padding: 10px;
+}
+
+.artPart {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  gap: 10px;
-  padding: 10px;
-  max-width: 1050px;
-  display: inline-block;
 }
+
 section{
   background: white;
   border-radius: 7px;
@@ -136,5 +139,6 @@ ul {
 }
 
 footer {
-  display: inline-block;
+  background-color: white;
+  display: flex;
 }
