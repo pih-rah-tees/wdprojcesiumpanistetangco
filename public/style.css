@@ -1,16 +1,13 @@
 /*positioning was based off laptop, may not currently be user-friendly*/
 
-
-
-/*heading navigation buttons*/
-
 html {
   scroll-behavior: smooth;
 }
+/*heading navigation buttons*/
 #dr {
-  background-color: #F1D0A5;
+  background-color: #f1d0a5;
   border: none;
-  color: #79582D; 
+  color: #79582d;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -21,11 +18,11 @@ html {
   cursor: pointer;
   height: 40px;
   width: 90px;
-  }
+}
 #de {
-  background-color: #FFE6E6;
+  background-color: #ffe6e6;
   border: none;
-  color: #5A519B;
+  color: #5a519b;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -36,11 +33,11 @@ html {
   cursor: pointer;
   height: 40px;
   width: 90px;
-  }
+}
 #do {
-  background-color: #5A519B;
+  background-color: #5a519b;
   border: none;
-  color: #FFE6E6;
+  color: #ffe6e6;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -51,11 +48,11 @@ html {
   cursor: pointer;
   height: 40px;
   width: 90px;
-  }
+}
 #ab {
-  background-color: #7469B6;
+  background-color: #7469b6;
   border: none;
-  color: #E1AFD1;
+  color: #e1afd1;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -66,19 +63,18 @@ html {
   cursor: pointer;
   height: 40px;
   width: 90px;
-  }
-
+}
 
 /*heading*/
 .iNeedBgPles {
-  background-color:white;
+  background-color: white;
   position: fixed;
   height: 80px;
   width: 1510px;
   opacity: 0.4;
 }
 .frontPLES {
-  z-index:100; 
+  z-index: 100;
   position: fixed;
 }
 .aaa {
@@ -88,7 +84,6 @@ html {
   position: fixed;
   width: 1475px;
 }
-
 
 /*home section*/
 #section1 {
@@ -103,12 +98,13 @@ html {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   font-size: 115px;
-  font-family: 'Luminari', cursive;
+  font-family: "Luminari", cursive;
   color: #f1d0a5;
   margin: 0;
-  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d,
+    3px 4px 0 #79582d;
 }
-#section1 h2{
+#section1 h2 {
   writing-mode: vertical-lr;
   font-size: 35px;
   font-family: "Gill Sans", sans-serif;
@@ -138,14 +134,17 @@ html {
   color: #79582d;
 }
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-
 /*draw section*/
-#section2 { 
-  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawBg.jpeg?v=1734687299950");
+#section2 {
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawBg.jpeg?v=1734687299950");
   background-position: 50% 75%;
   width: 100%;
   height: 100%;
@@ -153,34 +152,34 @@ html {
   justify-content: center;
   align-items: center;
 }
-#section2 h1{
+#section2 h1 {
   font-size: 175px;
-  font-family: 'Luminari', cursive;
+  font-family: "Luminari", cursive;
   color: #e1afd1;
   margin: 0;
-  text-shadow: -3px -4px 0 #5a519b, 3px -3px 0 #5a519b, -3px 3px 0 #5a519b, 3px 4px 0 #5a519b;
+  text-shadow: -3px -4px 0 #5a519b, 3px -3px 0 #5a519b, -3px 3px 0 #5a519b,
+    3px 4px 0 #5a519b;
 }
-#section2 h2{
+#section2 h2 {
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   color: #5a519b;
   margin: 0;
 }
 #draw {
-  float:right;
+  float: right;
   padding: 20px 100px;
   cursor: pointer;
-  display:inline-block;
-  background-color: #7469B6;
+  display: inline-block;
+  background-color: #7469b6;
   border: none;
   margin: 50px;
   border-radius: 80px;
 }
 
-
 /*design section*/
 #section3 {
-  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DesignBg.jpeg?v=1734690151945");
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DesignBg.jpeg?v=1734690151945");
   background-position: 25% 75%;
   width: 100%;
   height: 100%;
@@ -188,34 +187,34 @@ html {
   justify-content: center;
   align-items: center;
 }
-#section3 h1{
+#section3 h1 {
   font-size: 175px;
-  font-family: 'Luminari', cursive;
+  font-family: "Luminari", cursive;
   margin: 0;
   color: #f1d0a5;
-  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d,
+    3px 4px 0 #79582d;
 }
-#section3 h2{
+#section3 h2 {
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   color: #79582d;
   margin: 0;
 }
 #design {
-  float:right;
+  float: right;
   padding: 20px 100px;
   cursor: pointer;
-  display:inline-block;
+  display: inline-block;
   background-color: #ad88c6;
   border: none;
   margin: 50px;
   border-radius: 80px;
 }
 
-
 /*download section*/
-#section4 { 
-  background-image:url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DownloadBg.jpeg?v=1734690154233");
+#section4 {
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DownloadBg.jpeg?v=1734690154233");
   background-position: 25% 75%;
   width: 100%;
   height: 100%;
@@ -223,30 +222,30 @@ html {
   justify-content: center;
   align-items: center;
 }
-#section4 h1{
+#section4 h1 {
   font-size: 165px;
-  font-family: 'Luminari', cursive;
+  font-family: "Luminari", cursive;
   margin: 0;
   color: #f1d0a5;
-  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d,
+    3px 4px 0 #79582d;
 }
-#section4 h2{
+#section4 h2 {
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   margin: 0;
   color: #f1d0a5;
 }
 #download {
-  float:right;
+  float: right;
   padding: 20px 100px;
   cursor: pointer;
-  display:inline-block;
+  display: inline-block;
   background-color: #e1afd1;
   border: none;
   margin: 50px;
   border-radius: 80px;
 }
-
 
 /*about section*/
 #section5 {
@@ -259,10 +258,11 @@ html {
 }
 #section5 h1 {
   font-size: 165px;
-  font-family: 'Luminari', cursive;
+  font-family: "Luminari", cursive;
   color: #f1d0a5;
   margin: 0;
-  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d,
+    3px 4px 0 #79582d;
 }
 #section5 h2 {
   font-size: 25px;
@@ -288,7 +288,7 @@ html {
 /*button effects*/
 button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 5px #AAAAAA;
+  box-shadow: 0 5px #aaaaaa;
 }
 
 button:active {
@@ -300,7 +300,7 @@ button:active {
 footer {
   display: inline-block;
   background-color: #f2e0bf;
-  width:100%;
+  width: 100%;
   color: #79582d;
 }
 footer h1 {

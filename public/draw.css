@@ -1,3 +1,5 @@
+
+/*Background*/
 body{
   background-repeat:no-repeat;
   background-position: 50% 100%;
@@ -8,6 +10,7 @@ body{
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
 }
 
+/*Tools and Canvas*/
 .artPart {
   display: flex;
   align-items: center;
@@ -16,17 +19,18 @@ body{
   padding: 60px;
 }
 
+/*Canvas*/
 .drawing-board{
   flex: 1;
   overflow: hidden;
   background: white;
   border-radius: 7px;
 }
-
 .drawing-board canvas {
   width: 100%;
 }
 
+/*Tool-Board and added Effects*/
 .tools-board{
   width: 210px;
   padding: 15px 22px 0;
@@ -44,7 +48,6 @@ body{
   align-items: center;
   margin-bottom: 10px;
 }
-
 .option :where(span, label){
   color: #ad88c6;
   cursor: pointer;
@@ -67,7 +70,6 @@ body{
   height: 5px;
   margin-top: 10px;
 }
-
 .tools {
   background: #ffe6e6;
   border: 10px solid #ffe6e6;

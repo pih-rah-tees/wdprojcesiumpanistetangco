@@ -9,6 +9,7 @@ body {
   max-width: 1450px;
   padding: 30px;
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawWEB.jpeg?v=1734789589732");
+  background-position: 0% 90%;
 }
 section{
   background: white;
@@ -97,6 +98,8 @@ br {
 footer {
   background-color: #ffe6e6;
   color: #ad88c6;
+  width:100%;
+  height:100%;
 
 }
 
@@ -113,4 +116,6 @@ h4 {
   margin-left: 15px;
   padding: 10px;
   padding-top: 0;
+  width:100%;
+  height:100%
 }
