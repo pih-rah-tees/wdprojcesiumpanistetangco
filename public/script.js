@@ -36,3 +36,9 @@ const drawing = (e) => {
 }
 canvas.addEventListener("mousemove", drawing);
 
+function buttonFunc() {
+  var patUno = document.getElementById('patternUno');
+  var style = window.getComputedStyle(patUno);
+  var bgUno = style.backgroundColor;
+  console.log(bgUno);
+}

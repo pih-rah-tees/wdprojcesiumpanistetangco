@@ -285,6 +285,16 @@ html {
   color: #79582d;
 }
 
+/*button effects*/
+button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px #AAAAAA;
+}
+
+button:active {
+  box-shadow: 0 1px #888888;
+  transform: translateY(1px);
+}
 
 /*footer*/
 footer {
