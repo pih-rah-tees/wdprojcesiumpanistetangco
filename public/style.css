@@ -87,7 +87,7 @@
 
 /*home section*/
 #section1 {
-  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3485.jpeg?v=1734619196496");
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/wonkyChessboard1.jpeg?v=1734619196496");
   width: 100%;
   height: 98%;
   display: flex;
@@ -245,11 +245,11 @@
 
 /*about section*/
 #section5 {
-  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/IMG_3512.jpeg?v=1734706623039");
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/wonkyChessboard2.jpeg?v=1734706623039");
   width: 100%;
   height: 100%;
 }
-#section5 h1{
+#section5 h1 {
   font-size: 165px;
   font-family: 'Luminari', cursive;
   padding: 10% 0 0 0;
@@ -259,14 +259,16 @@
   color: #f1d0a5;
   text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d, 3px 4px 0 #79582d;
 }
-#section5 h2{
+#section5 h2 {
   font-size: 25px;
   font-family: "Gill Sans", sans-serif;
   position: absolute;
   left: 190px;
   top: 435%;
   color: #79582d;
-  text-align: right;
+}
+#section5 ul {
+  list-style-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/smolSHINY.png?v=1734762869760");
 }
 #section5 p {
   font-size: 25px;
