@@ -6,23 +6,22 @@ body{
 .container{
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/draw.jpeg?v=1734770057740");
   height: 100%;
-  padding: 20px;
+  gap: 10px;
+  width: 100%;
 }
 
 .artPart {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-section{
-  background: white;
-  border-radius: 7px;
+  padding: 75px;
 }
 
 .drawing-board{
   flex: 1;
   overflow: hidden;
+  background: white;
+  border-radius: 7px;
 }
 
 .drawing-board canvas {
@@ -74,7 +73,7 @@ section{
 .tools {
   background: #ffe6e6;
   border: 10px solid #ffe6e6;
-  
+  border-radius: 15px;
 }
 
 /*color input boxes*/
