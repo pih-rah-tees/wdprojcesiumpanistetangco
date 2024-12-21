@@ -88,7 +88,7 @@
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   position: absolute;
-  
+  font-size: 100px;
 }
 /*infinite marquee tag*/
 .marquee {
