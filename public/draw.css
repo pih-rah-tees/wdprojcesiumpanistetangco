@@ -108,3 +108,17 @@ input[type="range"]::-webkit-slider-runnable-track  {
   background: transparent;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#colors {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 25px;
+  color: ;
+}
