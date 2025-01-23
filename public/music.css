@@ -2,6 +2,30 @@ body {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/wonkyChessboard1.jpeg?v=1734619196496");
   width: 98%;
   height: 97%;
-  display: flex;
   align-items: center;
+  justify-items: center;
+  display: flex;
+}
+h1 {
+  font-size: 65px;
+  font-family: "Luminari", cursive;
+  color: #f1d0a5;
+  margin: 20px;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d,
+    3px 4px 0 #79582d;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  color: #79582d;
+  margin: 10px;
+  text-align: center;
+}
+p {
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  color: #79582d;
+  margin: 20px;
+  text-align: center;
 }
