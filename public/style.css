@@ -70,7 +70,7 @@ html {
   background-color: white;
   position: fixed;
   height: 80px;
-  width: 1510px;
+  width: 100vw;
   opacity: 0.4;
 }
 .frontPLES {
@@ -82,7 +82,7 @@ html {
   justify-content: space-between;
   margin-left: 2px;
   position: fixed;
-  width: 1475px;
+  width: 96vw;
 }
 
 /*home section*/
