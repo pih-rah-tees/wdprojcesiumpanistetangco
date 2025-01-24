@@ -51,6 +51,6 @@ function buttonFunc(a) {
 function secret() {
   let gate = prompt("Password? (ALL CAPS)");
   if (gate == "I WANT BUTTERFLY") {
-    window.location.href = "Music.html;
+    window.location.href = "Music.html";
   }
 }

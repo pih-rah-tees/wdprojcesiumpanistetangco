@@ -201,7 +201,14 @@ html {
   color: #79582d;
   margin: 0;
 }
-#design {
+
+
+.btn-group button {
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 10%;
+}
+  #design {
   float: right;
   padding: 20px 100px;
   cursor: pointer;
@@ -222,6 +229,7 @@ html {
   margin: 50px;
   border-radius: 80px;
 }
+
 
 
 
