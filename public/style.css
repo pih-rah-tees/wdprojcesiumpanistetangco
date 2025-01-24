@@ -204,9 +204,8 @@ html {
 
 
 .btn-group button {
-  padding: 10px 24px;
-  cursor: pointer;
-  width: 10%;
+  width: 40%;
+  margin: 50px;
 }
   #design {
   float: right;
@@ -215,7 +214,6 @@ html {
   display: block;
   background-color: #ad88c6;
   border: none;
-  margin: 50px;
   border-radius: 80px;
 }
 
@@ -226,7 +224,6 @@ html {
   display: block;
   background-color: #ad88c6;
   border: none;
-  margin: 50px;
   border-radius: 80px;
 }
 
