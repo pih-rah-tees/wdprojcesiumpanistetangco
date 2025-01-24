@@ -205,12 +205,26 @@ html {
   float: right;
   padding: 20px 100px;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   background-color: #ad88c6;
   border: none;
   margin: 50px;
   border-radius: 80px;
 }
+
+#design1 {
+  float: right;
+  padding: 20px 100px;
+  cursor: pointer;
+  display: block;
+  background-color: #ad88c6;
+  border: none;
+  margin: 50px;
+  border-radius: 80px;
+}
+
+
+
 
 /*download section*/
 #section4 {

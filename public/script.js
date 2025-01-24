@@ -46,3 +46,11 @@ function buttonFunc(a) {
       .setAttribute("style", "background-color: #ad88c6;");
   }
 }
+
+//easter egg alert (password is I WANT BUTTERFLY)
+function secret() {
+  let gate = prompt("Password? (ALL CAPS)");
+  if (gate == "I WANT BUTTERFLY") {
+    window.location.href = "Music.html;
+  }
+}
