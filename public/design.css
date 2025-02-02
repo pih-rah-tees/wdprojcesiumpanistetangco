@@ -15,6 +15,11 @@ body {
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawWEB.jpeg?v=1734789589732");
 }
 
+.top {
+  position: sticky;
+  top: 0;
+}
+
 /*interactive board for designing*/
 
 section{
