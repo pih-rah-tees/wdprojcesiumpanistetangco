@@ -54,3 +54,7 @@ function secret() {
     window.location.href = "Music.html";
   }
 }
+
+//secret game alert (yes or no)
+function game()
+  let fun=
