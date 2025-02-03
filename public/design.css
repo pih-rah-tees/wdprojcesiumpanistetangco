@@ -3,15 +3,15 @@
 
 /*background*/
 body {
-  height: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: 0% 90%;
 }
 .container{
   display: flex;
   width: 100%;
+  height: 100vh;
   gap: 10px;
-  padding:;
   background-image: URL("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/DrawWEB.jpeg?v=1734789589732");
 }
 
@@ -22,18 +22,28 @@ body {
 
 /*interactive board for designing*/
 
-section{
+#options{
   background: white;
   border-radius: 7px;
+  padding: 10px;
+  padding-bottom: 0px;
+  height: 80vh;
 }
 
 .drawing-board{
   flex: 1;
   overflow: hidden;
+  width: 80vw;
+  height: 80vh;
+  background: white;
+  margin: auto;
+  margin-right: 20px;
+  border-radius: 15px;
 }
 
 .title {
   position: static;
+  text-decoration: none;
 }
 
 /*option buttons*/
@@ -56,16 +66,26 @@ button:active {
 /*design of boxes*/
 .pattern1 {
   background: #ffe6e6;
-  height:600px;
-  width:250px;
-  border: 10px solid #ffe6e6;
+  width: 20vw;
+  padding: 10px;
+  margin: 20px;
   overflow:auto;
+  border-radius: 12px;
 }
 br {
   display: block;
   content: "";
   margin-top: 5px;
 }
+
+
+.list {
+  display: none;
+}
+.list:target {
+  display: inline;
+}
+
 
 /*button for different options*/
 .lol {
@@ -102,7 +122,7 @@ footer {
   background-color: #ffe6e6;
   color: #ad88c6;
   width:100%;
-  height:100%;
+  height:20vh;
 }
 h4 {
   margin: 0;

@@ -1,7 +1,7 @@
 body {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/wonkyChessboard1.jpeg?v=1734619196496");
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 h1 {
   font-size: 65px;
@@ -27,12 +27,5 @@ p {
   text-align: center;
 }
 #ebithing {
-  display: flex;
-  position: absolute;
-  left: 40%;
-  top: 25%;
-  margin: 0 0 0 -25%;
-}
-#videos {
   display: flex;
 }
