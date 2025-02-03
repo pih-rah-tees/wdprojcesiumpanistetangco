@@ -263,7 +263,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  
 }
 #section5 h1 {
   font-size: 165px;
@@ -289,10 +289,10 @@ html {
   margin: 0;
 }
 #section5 p {
-  font-size: 25px;
+  font-size: 23px;
   font-family: "Gill Sans", sans-serif;
   color: #79582d;
-  text-align: justify;
+  text-align: left;
   width: 40vw;
 }
 
