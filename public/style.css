@@ -263,6 +263,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 #section5 h1 {
   font-size: 165px;
@@ -292,6 +293,7 @@ html {
   font-family: "Gill Sans", sans-serif;
   color: #79582d;
   text-align: justify;
+  width: 40vw;
 }
 
 /*button effects*/
