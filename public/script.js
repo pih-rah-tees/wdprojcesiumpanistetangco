@@ -55,6 +55,3 @@ function secret() {
   }
 }
 
-//secret game alert (yes or no)
-function game()
-  let fun=
