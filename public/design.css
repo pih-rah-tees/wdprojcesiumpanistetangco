@@ -28,6 +28,7 @@ body {
   padding: 10px;
   padding-bottom: 0px;
   height: 80vh;
+  overflow: auto;
 }
 
 .drawing-board{
@@ -52,6 +53,8 @@ body {
   border-radius: 12px;
   border: none;
   cursor: pointer;
+  width: 5vw;
+  height: 5vw;
 }
  /*button effects*/
 button:hover {
