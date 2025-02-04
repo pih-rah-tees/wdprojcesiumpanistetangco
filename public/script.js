@@ -158,13 +158,8 @@ function secret() {
     window.location.href = "Music.html";
   }
 }
-
-let canvasColor = document.getElementById("bgcolor").value;
-var canvasDe = document.getElementById("iHateYouCanvas");
-var ctxDe = canvasDe.getContext('2d');
-
-// fill the entire canvas
-ctxDe.fillStyle=canvasColor;
-ctxDe.fillRect(0,0,canvas.width,canvas.height);
-
+function bgColor() {
+  let canvasColor = document.getElementById("bgcolor").value;
+  document.getElementByClassName("drawing-board").style.backgroundColor = canvasColor;
+}
 
