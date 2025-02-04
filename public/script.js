@@ -159,4 +159,6 @@ function secret() {
   }
 }
 
+canvasColor = document.getElementById("bgcolor")
+
 
