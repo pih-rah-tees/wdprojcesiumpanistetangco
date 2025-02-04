@@ -158,8 +158,7 @@ function secret() {
     window.location.href = "Music.html";
   }
 }
-function bgColor() {
-  let canvasColor = document.getElementById("bgcolor").value;
-  document.getElementByClassName("drawing-board").style.backgroundColor = canvasColor;
+function bgColor() { 
+  document.getElementByClassName("drawing-board").style.background = document.getElementById("bgcolor").value; 
 }
 
