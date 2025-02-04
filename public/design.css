@@ -28,7 +28,6 @@ body {
   padding: 10px;
   padding-bottom: 0px;
   height: 80vh;
-  overflow: auto;
 }
 
 .drawing-board{
@@ -53,8 +52,6 @@ body {
   border-radius: 12px;
   border: none;
   cursor: pointer;
-  width: 5vw;
-  height: 5vw;
 }
  /*button effects*/
 button:hover {
@@ -100,12 +97,7 @@ input[type="color"]::-webkit-color-swatch {
   border-radius: 20px;
   border: 4px solid #e1afd1;
 }
-h4 {
-  font-size: 20px;
-  color: #5a519b;
-  font-family: sans-serif;
-  font-variant: small-caps;
-}
+
 
 /*button for different options*/
 .lol {
@@ -150,6 +142,8 @@ h4 {
   font-variant: small-caps;
   padding: 10px;
   padding-bottom: 0;
+  font-size: 20px;
+  color: #5a519b;
 }
 #refer {
   list-style-type: square;
