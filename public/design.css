@@ -154,13 +154,24 @@ h4 {
   padding-top: 0;
 }
 
-.save-img {
+.save-pls {
   background: #7469B6;
   border: none;
   border-radius: 10px;
   font-family: sans-serif;
   font-variant: small-caps;
-  width: 100%;
+  width: 48%;
+  height: 7%;
+  margin-top: 10px;
+  color: white;
+}
+.clear-canvas {
+  background: #7469B6;
+  border: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  width: 48%;
   height: 7%;
   margin-top: 10px;
   color: white;
