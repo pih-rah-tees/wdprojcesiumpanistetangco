@@ -159,6 +159,12 @@ function secret() {
   }
 }
 
-canvasColor = document.getElementById("bgcolor")
+let canvasColor = document.getElementById("bgcolor").value;
+var canvasDe = document.getElementById("iHateYouCanvas");
+var ctxDe = canvasDe.getContext('2d');
+
+// fill the entire canvas
+ctxDe.fillStyle=canvasColor;
+ctxDe.fillRect(0,0,canvas.width,canvas.height);
 
 
