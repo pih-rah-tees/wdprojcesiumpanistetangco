@@ -18,6 +18,11 @@ img {
   margin-left: 10px; 
   margin-right: 10px; 
   padding: 5px; 
+  font-family: "Luminari", cursive;
+  font-size: 50px;
+  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d,
+    3px 4px 0 #79582d;
+  color: #f1d0a5
 }
 
 #score {

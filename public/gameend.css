@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/Home.png?v=1738761019574");
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/Congrats.png?v=1738762048671");
   background-repeat: no-repeat; 
   background-size: 100% 100vh;
 }
@@ -32,7 +32,7 @@ body {
   padding: 5px 25px 5px 25px;
   position: relative;
   top: 200;
-  left: 49vw; 
+  left:50%; 
   border: 1px #79582D solid;
   font-size: 15px;
   right: 50vw;

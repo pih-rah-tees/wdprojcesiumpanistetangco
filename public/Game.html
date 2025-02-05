@@ -54,9 +54,9 @@ var timerId = setInterval(countdown, 1000);
 function countdown() {
   if (timeLeft == 0) {
     clearTimeout(timerId);
-    alert("You earned " + sumvalue + " points")
+    location.href = "gameend.html"
   } else {
-    elem.innerHTML = timeLeft + ' seconds remaining';
+    elem.innerHTML = timeLeft + 's';
     timeLeft--;
   }
 }
