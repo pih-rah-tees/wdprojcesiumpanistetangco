@@ -10,6 +10,7 @@ img {
 
 #main {
   background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/garden.png?v=1738748898920");
+  background-size: 100vw 100vh;
 }
 
 #top {
@@ -20,9 +21,9 @@ img {
   padding: 5px; 
   font-family: "Luminari", cursive;
   font-size: 50px;
-  text-shadow: -3px -4px 0 #79582d, 3px -3px 0 #79582d, -3px 3px 0 #79582d,
-    3px 4px 0 #79582d;
-  color: #f1d0a5
+  text-shadow: -0.5px -1px 0 #79582d, 0.5px -0.5px 0 #79582d, -1px 1px 0 #79582d,
+    1px 1px 0 #79582d;
+  color: #f1d0a5;
 }
 
 #score {
