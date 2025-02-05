@@ -1,8 +1,8 @@
-var score = document.getElementById("score")
+var score = 0
 
 function myScore() {
-  if (document.getElementById("butterfly")
+  document.getElementById("score").stepUp(1);
 }
   
-document.write("Score")
+document.write(score)
 
