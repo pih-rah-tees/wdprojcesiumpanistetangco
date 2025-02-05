@@ -24,7 +24,7 @@
     <marquee scrollamount="30" scrolldelay="10">
       <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/butterfly1.png?v=1738741821526" onclick="myScore(1)">
     </marquee>
-    <marquee scrollamount="30" scrolldelay="70">
+    <marquee scrollamount="30" scrolldelay="70" direction="left">
       <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/butterfly1.png?v=1738741821526" onclick="myScore(1)" >
     </marquee>
     <marquee scrollamount="25" scrolldelay="40">
@@ -48,14 +48,16 @@ scoreCount.innerHTML = sumvalue;
     
 var timeLeft = 30;
 var elem = document.getElementById('timer');
+
 var timerId = setInterval(countdown, 1000);
 
 function countdown() {
   if (timeLeft == 0) {
     clearTimeout(timerId);
-    alert('You earned ' + sumvalue ' points!');
+   if (window.confirm('You earned '))
+    window.location = "index.html"
   } else {
-    elem.innerHTML = timeLeft + 's';
+    elem.innerHTML = timeLeft + ' seconds remaining';
     timeLeft--;
   }
 }
