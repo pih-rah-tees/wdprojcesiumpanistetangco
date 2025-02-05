@@ -16,3 +16,8 @@ img {
   display: flex;   
   justify-content: space-between;
 }
+
+#score {
+  display: flex; 
+  padding: 1px; 
+}
