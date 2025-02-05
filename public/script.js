@@ -159,7 +159,7 @@ function secret() {
   }
 }
 
-
+var height = document.getElementByClassName("drawing-board").style.
 
 
 
