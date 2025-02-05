@@ -164,7 +164,10 @@ function changeColor() {
   document.getElementById("drawing-board").style.backgroundColor = color;
 }
 
-
+function design(x) {
+  var elem = document.createElement("img");
+  let ig = document.getElementById(x).
+}
 
 
 
