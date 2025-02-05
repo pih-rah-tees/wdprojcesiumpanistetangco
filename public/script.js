@@ -159,6 +159,10 @@ function secret() {
   }
 }
 
+function changeColor() {
+  let color = document. getElementById("bgcolor").value;
+  document.getElementByClassName("drawing-board").style.backgroundColor = color;
+}
 
 function design(x) {
   var height = document.getElementByClassName("drawing-board").clientHeight;
