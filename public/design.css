@@ -166,3 +166,16 @@ h4 {
 	width: 57px;
 	height: 49px;
 }
+
+#ribbon1 {
+  background: url('https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/ArtWalli.png?v=1738717893975') no-repeat -65px -7px;
+	width: 52px;
+	height: 37px;
+}
+
+#dot1 {
+  background: url('https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/ArtWalli.png?v=1738717893975') no-repeat -150px -15px;
+	width: 25px;
+	height: 26px;
+}
+}
