@@ -165,7 +165,10 @@ function changeColor() {
 }
 
 function design(x) {
-
+  var height = document.getElementByClassName("drawing-board").clientHeight;
+  var width = document.getElementByClassName("drawing-board").clientWidth;
+  var row1and1 = Math.floor(width/75);
+  var row1and1 = Math.floor(width/75);
 }
 
 

@@ -4,7 +4,7 @@ const sumvalue = parseInt(sum.innerHTML) + click;
 sum.innerHTML = sumvalue;  
 }
     
-var timeLeft = 5;
+var timeLeft = 30;
 var elem = document.getElementById('timer');
 
 var timerId = setInterval(countdown, 1000);
@@ -18,3 +18,5 @@ function countdown() {
     timeLeft--;
   }
 }
+
+
