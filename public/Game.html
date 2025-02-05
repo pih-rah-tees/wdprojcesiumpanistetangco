@@ -46,7 +46,7 @@ const sumvalue = parseInt(scoreCount.innerHTML) + click;
 scoreCount.innerHTML = sumvalue;  
 }
     
-var timeLeft = 30;
+var timeLeft = 5;
 var elem = document.getElementById('timer');
 
 var timerId = setInterval(countdown, 1000);
@@ -54,8 +54,7 @@ var timerId = setInterval(countdown, 1000);
 function countdown() {
   if (timeLeft == 0) {
     clearTimeout(timerId);
-   if (window.confirm('You earned '))
-    window.location = "index.html"
+    alert("You earned " + sumvalue + " points")
   } else {
     elem.innerHTML = timeLeft + ' seconds remaining';
     timeLeft--;
