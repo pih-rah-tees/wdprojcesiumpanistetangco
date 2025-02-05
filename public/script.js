@@ -166,7 +166,9 @@ function changeColor() {
 
 function design1(x) {
   let ig = document.getElementById(x).src;
-  document.getElementById("patternI").src = ig;
+  let ih = document.getElementById("patternI").src
+  ig = ih;
+  if 
 }
 function design2(x) {
   let im = document.getElementById(x).src;
