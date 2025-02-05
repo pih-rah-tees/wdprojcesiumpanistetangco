@@ -5,61 +5,13 @@
     <meta name="author" content="Maddison Marie A. Panis & Feliza Guinevere C. Tetangco">
     <meta name="description" content="ArtWalli is a website where you can either draw, design or download your own wallpaper to decorate your device however you like.">
     <meta name="keywords" content="Draw, Design, Download, ArtWalli, Art, Digital, Wallpaper, Background, Butterfly, Color">
-    <title> ArtWalli - Butterfly Wings </title>
+    <title> ArtWalli - Gamescreen </title>
     <link href="game.css" rel="stylesheet" type="text/css" />
     <!--font stylesheet to be added-->
     <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/favicon.png?v=1734603688608">
   </head>
   
 <body> 
-  <div id="main">
-    <div id="top">  
-      <div id="score">
-        Points:
-        <div id="scoreCount">0</div> </div>
-      <div> Click the butterflies! </div>
-      <div id="timer"></div>
-    </div> 
-    <br>
-    <marquee scrollamount="30" scrolldelay="10">
-      <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/butterfly1.png?v=1738741821526" onclick="myScore(1)">
-    </marquee>
-    <marquee scrollamount="30" scrolldelay="70" direction="left">
-      <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/butterfly1.png?v=1738741821526" onclick="myScore(1)" >
-    </marquee>
-    <marquee scrollamount="25" scrolldelay="40">
-      <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/butterfly1.png?v=1738741821526" onclick="myScore(1)">
-    </marquee>
-  </div>
-  
-  <footer> 
-    <p>
-      https://codepen.io/ideaguy1974/pen/pZBBLK 
-    </p>
-  </footer>
-  
-  
-  <script> 
-  function myScore(click){
-const sum = document.getElementById('scoreCount')
-const sumvalue = parseInt(scoreCount.innerHTML) + click;
-scoreCount.innerHTML = sumvalue;  
-}
-    
-var timeLeft = 5;
-var elem = document.getElementById('timer');
-
-var timerId = setInterval(countdown, 1000);
-
-function countdown() {
-  if (timeLeft == 0) {
-    clearTimeout(timerId);
-    alert("You earned " + sumvalue + " points")
-  } else {
-    elem.innerHTML = timeLeft + ' seconds remaining';
-    timeLeft--;
-  }
-}
-  </script>
+  <div
   </body>
 </html>
