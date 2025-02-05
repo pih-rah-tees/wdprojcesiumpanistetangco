@@ -1,8 +1,5 @@
-var score = 0
+window.clickCounter = 0
 
-function myScore() {
-  document.getElementById("score").stepUp(1);
+function myScore(){
+window.clickCounter++
 }
-  
-document.write(score)
-
