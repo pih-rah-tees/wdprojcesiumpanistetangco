@@ -16,6 +16,7 @@
     <div id="top">
       <span> Click the butterflies! </span>   
       <span> Score : </span> <span id="scoreCount">0</span>
+      <span id="timer"></span>
     </div> 
     <br>
     <marquee scrollamount="30" scrolldelay="10">
@@ -35,6 +36,20 @@
 const sum = document.getElementById('scoreCount')
 const sumvalue = parseInt(scoreCount.innerHTML) + click;
 scoreCount.innerHTML = sumvalue;  
+}
+    
+var timeLeft = 30;
+var time = document.getElementById('timer');
+var count = setInterval(countdown, 1000);
+
+function countdown() {
+  if (timeLeft == 0) {
+    clearTimeout(count);
+    doSomething();
+  } else {
+    time.innerHTML = timeLeft + ' seconds remaining';
+    timeLeft--;
+  }
 }
   </script>
   </body>
