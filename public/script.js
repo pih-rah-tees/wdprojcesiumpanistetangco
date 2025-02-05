@@ -164,11 +164,10 @@ function changeColor() {
   document.getElementById("drawing-board").style.backgroundColor = color;
 }
 
+//current code for the pattern bg (we haven't figured out how to do it yet)
 function design1(x) {
   let ig = document.getElementById(x).src;
-  let ih = document.getElementById("patternI").src
-  ig = ih;
-  if 
+  document.getElementById("patternI").src = ig;
 }
 function design2(x) {
   let im = document.getElementById(x).src;

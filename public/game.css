@@ -30,3 +30,8 @@ img {
   display: flex; 
   padding: 1px; 
 }
+
+footer {
+  color: white;
+  background-color: #A1B391;
+}
