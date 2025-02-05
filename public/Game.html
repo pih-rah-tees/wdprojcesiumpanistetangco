@@ -12,19 +12,24 @@
   </head>
   
 <body> 
-  <div>
- <marquee direction="right" scrolldelay="0">
-      <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/butterfly1.png?v=1738741821526" onclick="myScore(1)">
+  <div id="box">
+    <span> Click the butterflies! </span>
+  </div>
+  <div id="box1">
+  <marquee scrollamount="30">
+      <img src="https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/butterfly1.png?v=1738741821526" onclick="myScore(1)" id="butterfly">
   </marquee>
-  </div>\
+  </div>
+  <div id="box2">
   <span> Score : </span>
   <span id="scoreCount">0</span>
+  </div>
   
   <script> 
   function myScore(click){
 const sum = document.getElementById('scoreCount')
-const sumvalue = parseInt(scoreCount.innerText) + click;
-scoreCount.innerText = sumvalue;  
+const sumvalue = parseInt(scoreCount.innerHTML) + click;
+scoreCount.innerHTML = sumvalue;  
 }
   </script>
   </body>

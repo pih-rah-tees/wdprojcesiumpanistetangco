@@ -1,0 +1,9 @@
+marquee {
+  direction: right; 
+  behavior: alternate;
+}
+
+#butterfly {
+  height: 150px;
+  width: 150px; 
+}
