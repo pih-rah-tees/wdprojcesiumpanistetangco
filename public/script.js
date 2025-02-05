@@ -159,7 +159,12 @@ function secret() {
   }
 }
 
-var height = document.getElementByClassName("drawing-board").style.
+
+function design(x) {
+  var height = document.getElementByClassName("drawing-board").clientHeight;
+  var width = document.getElementByClassName("drawing-board").clientWidth;
+  
+}
 
 
 
