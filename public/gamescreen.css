@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/garden.png?v=1738748898920");
+  background-image: url("https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/Home.png?v=1738761019574");
   background-repeat: no-repeat; 
   background-size: 100% 100vh;
 }
@@ -10,4 +10,25 @@ body {
   margin-right: auto;
   position: relative;
   top: 90;
+}
+
+button {
+  background-color: white;
+  color: #79582D;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  top: 200;
+  left:50%; 
+  border: 2px 
+}
+button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px #aaaaaa;
+}
+button:active {
+  box-shadow: 0 1px #888888;
+  transform: translateY(1px);
 }
