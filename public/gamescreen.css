@@ -12,18 +12,32 @@ body {
   top: 90;
 }
 
-button {
+#button1 {
   background-color: white;
   color: #79582D;
-  border: none;
   border-radius: 6px;
+  padding: 5px 25px 5px 25px;
+  position: relative;
+  top: 190;
+  left:50%; 
+  border: 1px #79582D solid;
   font-size: 15px;
-  padding: 5px 10px 5px 10px;
+  right: 50vw;
+}
+
+#button2 {
+  background-color: white;
+  color: #79582D;
+  border-radius: 6px;
+  padding: 5px 25px 5px 25px;
   position: relative;
   top: 200;
   left:50%; 
-  border: 2px 
+  border: 1px #79582D solid;
+  font-size: 15px;
+  right: 50vw;
 }
+
 button:hover {
   transform: translateY(-4px);
   box-shadow: 0 5px #aaaaaa;

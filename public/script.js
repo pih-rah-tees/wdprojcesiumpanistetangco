@@ -161,7 +161,7 @@ function secret() {
 
 function changeColor() {
   let color = document. getElementById("bgcolor").value;
-  document.getElementByClassName("drawing-board").style.backgroundColor = color;
+  document.getElementById("drawing-board").style.backgroundColor = color;
 }
 
 function design(x) {
