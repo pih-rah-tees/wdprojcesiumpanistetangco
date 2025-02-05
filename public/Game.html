@@ -13,10 +13,10 @@
   
 <body> 
   <div id="main">
-    <div id="top">
-      <span> Click the butterflies! </span>   
-      <span> Score : </span> <span id="scoreCount">0</span>
-      <span id="timer"></span>
+    <div id="top">  
+      <div id="scoreCount">0</div>
+      <div> Click the butterflies! </div>
+      <div id="timer"></div>
     </div> 
     <br>
     <marquee scrollamount="30" scrolldelay="10">
@@ -30,6 +30,12 @@
     </marquee>
   </div>
   
+  <footer> 
+    <p>
+      https://codepen.io/ideaguy1974/pen/pZBBLK 
+    </p>
+  </footer>
+  
   
   <script> 
   function myScore(click){
@@ -39,15 +45,15 @@ scoreCount.innerHTML = sumvalue;
 }
     
 var timeLeft = 30;
-var time = document.getElementById('timer');
-var count = setInterval(countdown, 1000);
+var elem = document.getElementById('timer');
+var timerId = setInterval(countdown, 1000);
 
 function countdown() {
   if (timeLeft == 0) {
-    clearTimeout(count);
-    doSomething();
+    clearTimeout(timerId);
+    location.href = "index.html";
   } else {
-    time.innerHTML = timeLeft + ' seconds remaining';
+    elem.innerHTML = timeLeft + ' seconds remaining';
     timeLeft--;
   }
 }
