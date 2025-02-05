@@ -159,3 +159,9 @@ h4 {
   padding: 10px;
   padding-top: 0;
 }
+
+#heart1 {
+	background: url('https://cdn.glitch.global/fdf6058e-73c2-42ca-8d01-e253e1a6e82b/SPRITE%20-%20Copy.png?v=1738716077027') no-repeat -5px -10px;
+	width: 29px;
+	height: 24px;
+}
